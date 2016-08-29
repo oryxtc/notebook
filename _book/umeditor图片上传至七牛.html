@@ -1,0 +1,400 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>umeditor图片上传至七牛 · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="init-construct-behaviors-编码区别.html" />
+    
+    
+    <link rel="prev" href="php.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="yii2.html">
+            
+                <a href="yii2.html">
+            
+                    
+                    yii2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="使用开源后台模板adminlte.html">
+            
+                <a href="使用开源后台模板adminlte.html">
+            
+                    
+                    使用开源后台模板AdminLTE
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="后台实现rbac权限管理方法.html">
+            
+                <a href="后台实现rbac权限管理方法.html">
+            
+                    
+                    后台实现rbac权限管理方法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="分页小部件的实现.html">
+            
+                <a href="分页小部件的实现.html">
+            
+                    
+                    分页小部件的实现
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="php.html">
+            
+                <a href="php.html">
+            
+                    
+                    php
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="umeditor图片上传至七牛.html">
+            
+                <a href="umeditor图片上传至七牛.html">
+            
+                    
+                    umeditor图片上传至七牛
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="init-construct-behaviors-编码区别.html">
+            
+                <a href="init-construct-behaviors-编码区别.html">
+            
+                    
+                    init(), _construct() ,behaviors() 编码区别
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="苹果内购订单验证.html">
+            
+                <a href="苹果内购订单验证.html">
+            
+                    
+                    苹果内购订单验证
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >umeditor图片上传至七牛</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p><strong>1.&#x786E;&#x5B9A;&#x56FE;&#x7247;&#x4E0A;&#x4F20;&#x5B9E;&#x4F8B;&#x5316;&#x7C7B;&#x7684;&#x8DEF;&#x5F84;,&#x5728;<code>umeditor/php/index.php</code></strong></p><pre><code class="lang-php">
+<span class="hljs-meta">&lt;?php</span>
+    header(<span class="hljs-string">&quot;Content-Type:text/html;charset=utf-8&quot;</span>);
+    error_reporting(E_ERROR | E_WARNING);
+    date_default_timezone_set(<span class="hljs-string">&quot;Asia/chongqing&quot;</span>);
+    <span class="hljs-keyword">include</span> <span class="hljs-string">&quot;uploaderController.php&quot;</span>; <span class="hljs-comment">//&#x4E0A;&#x4F20;&#x914D;&#x7F6E;</span>
+    $config = <span class="hljs-keyword">array</span>(
+        <span class="hljs-string">&quot;savePath&quot;</span> =&gt; <span class="hljs-string">&quot;upload/&quot;</span>, <span class="hljs-comment">//&#x5B58;&#x50A8;&#x6587;&#x4EF6;&#x5939;</span>
+        <span class="hljs-string">&quot;maxSize&quot;</span> =&gt; <span class="hljs-number">1000</span>, <span class="hljs-comment">//&#x5141;&#x8BB8;&#x7684;&#x6587;&#x4EF6;&#x6700;&#x5927;&#x5C3A;&#x5BF8;&#xFF0C;&#x5355;&#x4F4D;KB</span>
+        <span class="hljs-string">&quot;allowFiles&quot;</span> =&gt; <span class="hljs-keyword">array</span>(<span class="hljs-string">&quot;.gif&quot;</span>, <span class="hljs-string">&quot;.png&quot;</span>, <span class="hljs-string">&quot;.jpg&quot;</span>, <span class="hljs-string">&quot;.jpeg&quot;</span>, <span class="hljs-string">&quot;.bmp&quot;</span>) <span class="hljs-comment">//&#x5141;&#x8BB8;&#x7684;&#x6587;&#x4EF6;&#x683C;&#x5F0F;</span>
+    ); <span class="hljs-comment">//&#x5B9E;&#x4F8B;&#x5316;&#x56FE;&#x7247;&#x4E0A;&#x4F20;&#x7C7B;</span>
+    $up = <span class="hljs-keyword">new</span> uploaderController(<span class="hljs-string">&quot;upfile&quot;</span>, $config);
+    $type = $_REQUEST[<span class="hljs-string">&apos;type&apos;</span>]; $callback = $_GET[<span class="hljs-string">&apos;callback&apos;</span>];
+    $info = $up-&gt;getFileInfo();
+    <span class="hljs-comment">/**
+    * &#x8FD4;&#x56DE;&#x6570;&#x636E;
+    */</span>
+    <span class="hljs-keyword">if</span> ($callback) {
+        <span class="hljs-keyword">echo</span> <span class="hljs-string">&apos;&lt;script&gt;&apos;</span> . $callback . <span class="hljs-string">&apos;(&apos;</span> . json_encode($info) . <span class="hljs-string">&apos;)&lt;/script&gt;&apos;</span>;
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-keyword">echo</span> json_encode($info);
+    }</code></pre>
+<p><strong>2.&#x4FEE;&#x6539;<code>uploderController.php</code> &#x4E0A;&#x4F20;&#x7C7B; <code>upfile()</code></strong></p><pre><code class="lang-php"><span class="hljs-comment">// $folder = $this-&gt;getFolder();</span>
+<span class="hljs-comment">//&#x4E0D;&#x4E0A;&#x4F20;&#x5230;&#x672C;&#x5730;</span>
+<span class="hljs-comment">// if ( $folder === false ) { // $this-&gt;stateInfo = $this-&gt;getStateInfo( &quot;DIR_ERROR&quot; );</span>
+<span class="hljs-comment">//     return;</span>
+<span class="hljs-comment">// }</span>
+<span class="hljs-comment">// $this-&gt;fullName = $folder . &apos;/&apos; . $this-&gt;getName();</span>
+<span class="hljs-comment">// if ( $this-&gt;stateInfo == $this-&gt;stateMap[ 0 ] ) {</span>
+<span class="hljs-comment">//     if ( !move_uploaded_file( $file[ &quot;tmp_name&quot; ] , $this-&gt;fullName ) ) {</span>
+<span class="hljs-comment">//         $this-&gt;stateInfo = $this-&gt;getStateInfo( &quot;MOVE&quot; );</span>
+<span class="hljs-comment">//     }</span>
+<span class="hljs-comment">// }</span>
+<span class="hljs-comment">//&#x4F7F;&#x7528;&#x4E03;&#x725B;&#x4E0A;&#x4F20;</span>
+$result=$this-&gt;updateQiniu($file[ <span class="hljs-string">&quot;tmp_name&quot;</span> ]);
+$this-&gt;fullName=<span class="hljs-string">&apos;http://xxxxxxx.bkt.clouddn.com/&apos;</span>.$result[<span class="hljs-string">&apos;hash&apos;</span>];</code></pre>
+<p><strong>3.&#x5B9E;&#x73B0;<code>updateQiniu()</code> &#x65B9;&#x6CD5;</strong></p><pre><code class="lang-php"><span class="hljs-keyword">private</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">updateQiniu</span><span class="hljs-params">($tmp_name)</span></span>{
+    <span class="hljs-keyword">include</span> <span class="hljs-string">&apos;../../../../../vendor/qiniu/php-sdk/autoload.php&apos;</span>; <span class="hljs-comment">//&#x5341;&#x5206;&#x91CD;&#x8981;</span>
+    $accessKey = <span class="hljs-string">&apos;xxxxxxxxx&apos;</span>;
+    $secretKey = <span class="hljs-string">&apos;xxxxxxxxx&apos;</span>;
+    $auth = <span class="hljs-keyword">new</span> Auth($accessKey, $secretKey);
+    $bucket = <span class="hljs-string">&apos;ulala-test&apos;</span>;
+    $token = $auth-&gt;uploadToken($bucket);
+    <span class="hljs-comment">// &#x8981;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x7684;&#x672C;&#x5730;&#x8DEF;&#x5F84;</span>
+    $filePath =$tmp_name;
+    $uploadMgr =<span class="hljs-keyword">new</span> UploadManager();
+    $key=<span class="hljs-keyword">null</span>;
+    <span class="hljs-keyword">list</span>($ret, $err) = $uploadMgr-&gt;putFile($token,$key, $filePath);
+    <span class="hljs-keyword">if</span> ($err !== <span class="hljs-keyword">null</span>) {
+    <span class="hljs-keyword">return</span> $err;
+    } <span class="hljs-keyword">else</span> {
+    <span class="hljs-comment">//&#x6210;&#x529F;&#x7684;&#x8FD4;&#x56DE;&#x6570;&#x7EC4; hash &#x548C;key</span>
+    <span class="hljs-keyword">return</span> $ret;
+    }
+}</code></pre>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="php.html" class="navigation navigation-prev " aria-label="Previous page: php">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="init-construct-behaviors-编码区别.html" class="navigation navigation-next " aria-label="Next page: init(), _construct() ,behaviors() 编码区别">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"umeditor图片上传至七牛","level":"1.3.1","depth":2,"next":{"title":"init(), _construct() ,behaviors() 编码区别","level":"1.3.2","depth":2,"path":"init-construct-behaviors-编码区别.md","ref":"init-construct-behaviors-编码区别.md","articles":[]},"previous":{"title":"php","level":"1.3","depth":1,"path":"php.md","ref":"php.md","articles":[{"title":"umeditor图片上传至七牛","level":"1.3.1","depth":2,"path":"umeditor图片上传至七牛.md","ref":"umeditor图片上传至七牛.md","articles":[]},{"title":"init(), _construct() ,behaviors() 编码区别","level":"1.3.2","depth":2,"path":"init-construct-behaviors-编码区别.md","ref":"init-construct-behaviors-编码区别.md","articles":[]},{"title":"苹果内购订单验证","level":"1.3.3","depth":2,"path":"苹果内购订单验证.md","ref":"苹果内购订单验证.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"umeditor图片上传至七牛.md","mtime":"2016-08-27T06:35:08.134Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-08-29T08:29:11.097Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
