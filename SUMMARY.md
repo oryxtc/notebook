@@ -7,7 +7,7 @@
    * [分页小部件的实现](分页小部件的实现.md)
 * [php](php.md)
    * [umeditor图片上传至七牛](umeditor图片上传至七牛.md)
-   * [init\(\), \_construct\(\) ,behaviors\(\) 编码区别](init-construct-behaviors-编码区别.md)
+   * [init(), _construct() ,behaviors() 编码区别](init-construct-behaviors-编码区别.md)
    * [苹果内购订单验证](苹果内购订单验证.md)
    * [谷歌内购订单验证](谷歌内购验证.md)
 
