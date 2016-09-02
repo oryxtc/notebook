@@ -49,7 +49,7 @@ public $userTable = '{{%administrator}}';
 ```
 
 5.在浏览器地址栏中中输入`后台地址路径/rbac`(该地址经过`urlManager`美化),即可看见效果
-![](/assets/57b7e1d0c6f7294c63000000.png)
+![](QQ截图20160902151321.png)
 
 
 
