@@ -5,6 +5,10 @@
     composer require "almasaeed2010/adminlte=~2.0"
 
 2.再引入`AdminLTE Asset Bundle`代码,在`github`上的托管地址:[https://github.com/dmstr/yii2-adminlte-asset](https://github.com/dmstr/yii2-adminlte-asset)
+使用`composer`方式引入类
+
+    composer require dmstr/yii2-adminlte-asset "2.*"
+
 
 3.我使用的YII2高级，后台应用在`/backend，所以`在`backend/config/main.php`中配置
 
