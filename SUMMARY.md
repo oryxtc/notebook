@@ -5,6 +5,7 @@
    * [使用开源后台模板AdminLTE](使用开源后台模板adminlte.md)
    * [后台实现rbac权限管理方法](后台实现rbac权限管理方法.md)
    * [分页小部件的实现](分页小部件的实现.md)
+   * 使用yii2-user扩展实现用户注册
 * [php](php.md)
    * [umeditor图片上传至七牛](umeditor图片上传至七牛.md)
    * [init(), _construct() ,behaviors() 编码区别](init-construct-behaviors-编码区别.md)
