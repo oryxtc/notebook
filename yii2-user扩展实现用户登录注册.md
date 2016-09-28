@@ -62,9 +62,50 @@ if (Yii::$app->user->isGuest) {
 
 >当你注册新用户后,该扩展默认会发送邮件,必须邮箱验证后才能正式登陆,如果需要修改配置参数请查阅官方文档
 
+6.如果你想在一个域中使用独立的会话,即登陆前端的`session`不能用来登陆后端
+
+在`@frontend\config\main.php`中配置项如下
+```php
+'components' => [
+    'user' => [
+        'identityCookie' => [
+            'name'     => '_frontendIdentity',
+            'path'     => '/',
+            'httpOnly' => true,
+        ],
+    ],
+    'session' => [
+        'name' => 'FRONTENDSESSID',
+        'cookieParams' => [
+            'httpOnly' => true,
+            'path'     => '/',
+        ],
+    ],  
+],
+```
+在`@backend\config\main.php`中配置项如下
+```php
+'components' => [
+    'user' => [
+        'identityCookie' => [
+            'name'     => '_backendIdentity',
+            'path'     => '/admin',
+            'httpOnly' => true,
+        ],
+    ],
+    'session' => [
+        'name' => 'BACKENDSESSID',
+        'cookieParams' => [
+            'httpOnly' => true,
+            'path'     => '/admin',
+        ],
+    ],  
+],
+```
+
 **错误排查**
 
-6.1 用户登陆后,点击注销登陆,错误提示为
+用户登陆后,点击注销登陆,错误提示为
 ```php
 After logging in I'm redirected back without any sign of being logged in
 ```
