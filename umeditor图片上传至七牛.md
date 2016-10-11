@@ -59,10 +59,10 @@ private function updateQiniu($tmp_name){
     $key=null;
     list($ret, $err) = $uploadMgr->putFile($token,$key, $filePath);
     if ($err !== null) {
-    return $err;
+        return $err;
     } else {
-    //成功的返回数组 hash 和key
-    return $ret;
+        //成功的返回数组 hash 和key
+        return $ret;
     }
 }
 ```
