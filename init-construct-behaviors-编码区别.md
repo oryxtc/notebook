@@ -4,7 +4,7 @@
 
 **下面为具体例子**
 
-`_construct()`函数编码风格
+1.`_construct()`函数编码风格
 
 ```php
 public function __construct($param1, $param2, $config = []){
@@ -14,16 +14,16 @@ public function __construct($param1, $param2, $config = []){
 
 ```
 
-`init()`函数编码风格
+2.`init()`函数编码风格
 ```php
 public function init(){
-    parent::init();+
+    parent::init();
     // ... 配置生效后的初始化过程
 }
 
 ```
 
-`behaviors()`函数编码风格
+3.`behaviors()`函数编码风格
 
 ```php
 public function behaviors() {
