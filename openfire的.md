@@ -1,7 +1,6 @@
-1.首先确保你的openfire已开启restapi,在openfire后台管理->插件管理中下载并启用
+1.首先确保你的openfire已安装restapi,在openfire后台管理->插件管理中下载并启用
 
 2.部署以后默认是没有开启的，你需要到后台开启并且设置验证码(即为secret)，为了确保安全你也许还要设置一个安全的ip
-
 
 
 3.引入`php-openfire-restapi`的代码,在`github`上的托管地址:[https://github.com/gidkom/php-openfire-restapi](https://github.com/gidkom/php-openfire-restapi)
