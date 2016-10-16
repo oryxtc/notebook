@@ -16,7 +16,7 @@ public function sendMessage2($uid,$content){
             $conn->useEncryption(false);    //不使用ssl验证
             $conn->processUntil('session_start');
             $conn->presence();
-            $conn->message('JId.iZ115it3c8tZ',$content,'groupchat');
+            $conn->message('JId.server','content','groupchat');
             $conn->disconnect();
             return true;
         } catch (\XMPPHP_Exception $e) {
