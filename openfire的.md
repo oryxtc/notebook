@@ -21,6 +21,7 @@ class OpenFireRestApi
 ```
 3.或者实例化对象后,重新定义属性
 ```php
+include "vendor/autoload.php";
 $api = new Gidkom\OpenFireRestApi\OpenFireRestApi;
 
 // 设置必须的配置项参数
@@ -28,7 +29,7 @@ $api->secret = "MySecret";
 $api->host = "jabber.myserver.com";
 $api->port = "9090";  // default 9090
 
-// 可选的参数 (没有设置为默认值)
+// 可选的参数 (没有设置为默认值)
 $api->useSSL = false;
 $api->plugin = "/plugins/restapi/v1";  // plugin 
 
