@@ -13,5 +13,5 @@
     * [谷歌内购订单验证](谷歌内购验证.md)
     * [通过经纬度获取城市名](通过经纬度获取城市名谷歌-.md)
     * [获取用户的facebook信息](获取.md)
-* [openfire的restapi接口调用](openfire的.md)
+    * [openfire的restapi接口调用](openfire的.md)
 
