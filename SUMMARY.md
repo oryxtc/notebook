@@ -14,4 +14,5 @@
     * [通过经纬度获取城市名](通过经纬度获取城市名谷歌-.md)
     * [获取用户的facebook信息](获取.md)
     * [openfire的restapi接口调用](openfire的.md)
+* [通过xmpphp发送消息](通过xmpphp发送消息.md)
 
