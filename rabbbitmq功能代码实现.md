@@ -1,4 +1,4 @@
-## php + RabbitMQ 功能实现
+##RabbitMQ 功能实现
 引入php-amqplib类库,类库地址为[https://github.com/php-amqplib/php-amqplib](https://github.com/php-amqplib/php-amqplib)
 
 ###1.简单的示例代码实现
@@ -60,7 +60,7 @@ class Callback extends Model{
         $test_model->save();
         //注意:$channel->basic_consume 的第四个参数为true时(即 no ack),则为关闭消息确认
         //$channel->basic_consume 的第四个参数为false时,则为开启消息确认
-        //开启消息确认机制后,回调方法执行消息确认后,该信息才会被消耗
+        //开启消息确认机制后,回调方法执行消息确认后,该信息才会被消耗. 当该工人或服务死后,为确认的信息会被再次放入到队列中
         $msg->delivery_info['channel']->basic_ack($msg->delivery_info['delivery_tag']);
     }
 }
@@ -85,3 +85,12 @@ $msg = new AMQPMessage($data,
 ```
 
 > 虽然设置了队列和消息的持久化,但RabbitMQ可能有时只是存入缓存不是磁盘中,如果需要更强力的保障,请使用[ publisher confirms](https://www.rabbitmq.com/confirms.html)
+
+###3.合理调度实现
+
++ 如果你想让工人处理并确认了当前任务后再接受新任务,需在**消耗信息**时设置
+```php
+//设置prefetch_count =1
+$channel->basic_qos(null, 1, null); //参数为1 表示工人当前任务最多1个
+$channel->basic_consume('hello', '', false, false, false, false);
+```
