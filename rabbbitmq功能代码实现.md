@@ -1,7 +1,7 @@
-### php + RabbitMQ 功能实现
+## php + RabbitMQ 功能实现
 引入php-amqplib类库,类库地址为[https://github.com/php-amqplib/php-amqplib](https://github.com/php-amqplib/php-amqplib)
 
-**1.简单的示例代码实现**
+###1.简单的示例代码实现
 
 ![](/assets/QQ截图20161212205751.png)
 
@@ -65,3 +65,23 @@ class Callback extends Model{
     }
 }
 ```
+
+###2.队列及消息的持久化设置
+
++ 首先设置队列的持久化
+
+```php
+//设置第三个参数durable 为true
+//注意:如果这里hello队列已存在,RabbitMQ不允许重新定义现有队列,并且会返回错误,这里你可以声明一个新队列
+$channel->queue_declare('hello', false, true, false, false);
+```
++ 设置消息的持久化
+
+```php
+$msg = new AMQPMessage($data,
+    array('delivery_mode' => 2) //使消息持久化
+);
+
+```
+
+> 虽然设置了队列和消息的持久化,但RabbitMQ可能有时只是存入缓存不是磁盘中,如果需要更强力的保障,请使用[ publisher confirms](https://www.rabbitmq.com/confirms.html)
