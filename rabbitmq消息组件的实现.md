@@ -36,15 +36,6 @@ LoadFile  "rabbitmq.1.dll文件路径"
 ```
 7.重启apache   phpinfo显示如下![](/assets/QQ截图20161212204923.png)
 
-### php + RabbitMQ 功能实现
-1.引入php-amqplib类库,类库地址为[https://github.com/php-amqplib/php-amqplib](https://github.com/php-amqplib/php-amqplib)
 
-2.按照文档说明,将类库引入到项目中
-
-3.简单的示例代码实现
-
-![](/assets/QQ截图20161212205751.png)
-
-+ 4.生产者(发送消息者) 
 
 

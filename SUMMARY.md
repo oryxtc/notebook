@@ -15,5 +15,5 @@
     * [常用的正则表达式](常用的正则表达式.md)
     * [正则表达式-语法](正则表达式-语法.md)
     * [RabbitMQ服务和扩展的安装](rabbitmq消息组件的实现.md)
-    * RabbbitMQ功能代码实现
+    * [RabbitMQ功能代码实现](rabbbitmq功能代码实现.md)
 
