@@ -6,6 +6,7 @@
     * [后台实现rbac权限管理方法](后台实现rbac权限管理方法.md)
     * [分页小部件的实现](分页小部件的实现.md)
     * [yii2-user扩展实现用户登录注册](yii2-user扩展实现用户登录注册.md)
+    * 关于如何在单独的action中关闭Csrf验证 \[ 技术分享 \]
 * [php](php.md)
     * [umeditor图片上传至七牛](umeditor图片上传至七牛.md)
     * [init\(\), \_construct\(\) ,behaviors\(\) 编码区别](init-construct-behaviors-编码区别.md)
@@ -18,4 +19,5 @@
     * [RabbitMQ功能代码实现](rabbbitmq功能代码实现.md)
     * [Redis扩展的安装](redis扩展的安装.md)
     * [生成唯一标识符方法](生成唯一标识符方法.md)
+
 
