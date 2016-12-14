@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [yii2](yii2.md)
-    * 散碎代码块
+    * [散碎代码块](散碎代码块.md)
     * [使用开源后台模板AdminLTE](使用开源后台模板adminlte.md)
     * [后台实现rbac权限管理方法](后台实现rbac权限管理方法.md)
     * [分页小部件的实现](分页小部件的实现.md)
@@ -20,5 +20,4 @@
     * [RabbitMQ功能代码实现](rabbbitmq功能代码实现.md)
     * [Redis扩展的安装](redis扩展的安装.md)
     * [生成唯一标识符方法](生成唯一标识符方法.md)
-
 
