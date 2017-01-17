@@ -26,5 +26,5 @@
 * [node.js](node.js.md)
     * [常用命令](常用命令.md)
 * [phpstorm](phpstorm.md)
-    * [添加node\_modules为library root](添加nodemodules为library-root.md)
+    * [巧妙配置提交开发效率](添加nodemodules为library-root.md)
 
