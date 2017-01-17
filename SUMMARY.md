@@ -25,5 +25,6 @@
     * [yii2-前后端分离](yii2-前后端分离.md)
 * [node.js](node.js.md)
     * [常用命令](常用命令.md)
-* phpstorm
+* [phpstorm](phpstorm.md)
+* 添加node\_modules为library root
 
