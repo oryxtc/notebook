@@ -1,4 +1,4 @@
-- **初始化生成package.json****启动监听模式**
+- **初始化生成package.json**
 
 `npm init`
 
