@@ -9,3 +9,7 @@
 - **删除node_modules库**
 
 `rimraf node_modules`
+
+- **删除模块**
+
+`npm uninstall xxxx`
