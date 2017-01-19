@@ -4,7 +4,7 @@
 
 - **安装包并把依赖写入package.json**
 
-`npm install webpack --save-dev`
+`npm install webpack --save-dev`  或者  `npm install webpack -D`
 
 - **删除node_modules库**
 
