@@ -29,4 +29,6 @@
     * [巧妙配置提交开发效率](添加nodemodules为library-root.md)
 * [webpack](webpack.md)
     * [webpack 常用命令](webpack 常用命令.md)
+* vue
+* vue-cli
 
