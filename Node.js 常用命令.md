@@ -4,7 +4,7 @@
 
 - **安装包并把依赖写入package.json**
 
-`npm install xxxx--save-dev`  或者  `npm install xxxx-D`
+`npm install xxxx--save-dev`  或者  `npm install xxxx -D`
 
 - **删除node_modules库**
 
