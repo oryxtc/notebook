@@ -13,3 +13,7 @@
 - **删除模块**
 
 `npm uninstall xxxx`
+
+- **查看包当前版本/最新版本号**
+
+`npm outdated`
