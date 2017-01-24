@@ -31,4 +31,6 @@
     * [webpack 常用命令](webpack 常用命令.md)
 * vue
 * vue-cli
+* [javascript](javascript.md)
+* javascript-常用方法
 
