@@ -35,4 +35,5 @@
     * [yii2-前后端分离](yii2-前后端分离.md)
 * [phpstorm](phpstorm.md)
     * [巧妙配置提交开发效率](添加nodemodules为library-root.md)
+* [php-代码块](货号单-0000001的生成方法.md)
 
