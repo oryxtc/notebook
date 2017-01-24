@@ -9,6 +9,7 @@
     * [yii2-user扩展实现用户登录注册](yii2-user扩展实现用户登录注册.md)
     * [关于如何在单独的action中关闭Csrf验证 \[ 技术分享 \]](关于如何在单独的action中关闭csrf验证--技术分享-.md)
 * [php](php.md)
+    * [php-代码块](货号单-0000001的生成方法.md)
     * [umeditor图片上传至七牛](umeditor图片上传至七牛.md)
     * [init\(\), \_construct\(\) ,behaviors\(\) 编码区别](init-construct-behaviors-编码区别.md)
     * [苹果内购订单验证](苹果内购订单验证.md)
@@ -35,5 +36,5 @@
     * [yii2-前后端分离](yii2-前后端分离.md)
 * [phpstorm](phpstorm.md)
     * [巧妙配置提交开发效率](添加nodemodules为library-root.md)
-* [php-代码块](货号单-0000001的生成方法.md)
+
 
