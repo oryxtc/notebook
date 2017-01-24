@@ -1,4 +1,4 @@
-```
+```php
 RewriteEngine On
 
 # End the processing, if a rewrite already occurred
