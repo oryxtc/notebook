@@ -1,13 +1,15 @@
-**RewriteEngine On**
+```
+RewriteEngine On
 
-\# End the processing, if a rewrite already occurred
+# End the processing, if a rewrite already occurred
 
-**RewriteRule ^(frontend|admin)/web/ - [L]**
+RewriteRule ^(frontend|admin)/web/ - [L]
 
-**RewriteRule ^frontend(/(.*))?$ frontend/web/$1 [L]**
+RewriteRule ^frontend(/(.*))?$ frontend/web/$1 [L]
 
-**RewriteRule ^admin(/(.*))?$ backend/web/$1 [L]**
+RewriteRule ^admin(/(.*))?$ backend/web/$1 [L]
 
-\# handle the case of frontend
+# handle the case of frontend
 
-**RewriteRule .* website/index.html**
+RewriteRule .* website/index.html
+```
