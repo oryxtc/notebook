@@ -14,7 +14,6 @@
     * [init\(\), \_construct\(\) ,behaviors\(\) 编码区别](init-construct-behaviors-编码区别.md)
     * [苹果内购订单验证](苹果内购订单验证.md)
     * [谷歌内购订单验证](谷歌内购验证.md)
-    * [通过经纬度获取城市名](通过经纬度获取城市名谷歌-.md)
     * [正则表达式-整理](正则表达式-语法.md)
     * [RabbitMQ服务和扩展的安装](rabbitmq消息组件的实现.md)
     * [RabbitMQ功能代码实现](rabbbitmq功能代码实现.md)
