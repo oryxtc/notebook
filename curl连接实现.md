@@ -18,12 +18,8 @@ curl_close($ch);
 ```php
 $data=array(
     'from_name'=>'admin',
-    'from_pwd'=>'a12345',
-    'service_name'=>'iZ115it3c8tZ',
-    'server_host'=>'xmpp.palmobo.net',
-    'to_user'=>'1@iZ115it3c8tZ',
-    'mess_content'=>'content',
-    'send_port'=>5222,
+    'from_pwd'=>'xxxx',
+    'service_name'=>'xxxx'
 );
 $data=http_build_query($data);//调用api时  需要转换成url编码格式
 $url='http://xxxx';
