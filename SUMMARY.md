@@ -21,7 +21,6 @@
     * [Redis扩展的安装](redis扩展的安装.md)
     * [生成唯一标识符方法](生成唯一标识符方法.md)
 * [htaccess](htaccess.md)
-    * [yii2-前后台使用同一域名](yii2-前后台使用同一域名.md)
     * [yii2-前后端分离](yii2-前后端分离.md)
 * [node.js](node.js.md)
     * [Node.js 常用命令](Node.js 常用命令.md)
@@ -35,4 +34,5 @@
     * [javascript-常用方法](javascript-常用方法.md)
 * apache
     * [http-vhosts配置详解](http-vhosts配置详解.md)
+* [yii2-前后台使用同一域名](yii2-前后台使用同一域名.md)
 
