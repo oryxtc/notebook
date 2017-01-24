@@ -18,7 +18,6 @@
     * [RabbitMQ服务和扩展的安装](rabbitmq消息组件的实现.md)
     * [RabbitMQ功能代码实现](rabbbitmq功能代码实现.md)
     * [Redis扩展的安装](redis扩展的安装.md)
-    * [生成唯一标识符方法](生成唯一标识符方法.md)
     * [curl连接实现](curl连接实现.md)
 * [node.js](node.js.md)
     * [Node.js 常用命令](Node.js 常用命令.md)
