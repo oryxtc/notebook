@@ -32,5 +32,5 @@
     * [yii2-前后台使用同一域名](yii2-前后台使用同一域名.md)
     * [yii2-前后端分离](yii2-前后端分离.md)
 * [phpstorm](phpstorm.md)
-    * [巧妙配置提交开发效率](添加nodemodules为library-root.md)
+    * [phpstorm-配置提交开发效率](添加nodemodules为library-root.md)
 
