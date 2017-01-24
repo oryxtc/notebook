@@ -1,10 +1,9 @@
-- **json字符串转换成对象**
+* ###json字符串转换成对象
+```
+var object=$.parseJSON(data)
+```
 
-`var object=$.parseJSON(data)`
-
-
-- **删除数组中重复元素**
-
+* ###删除数组中重复元素
 ```javascript
 <script type="text/javascript">
 var  a=[4,6,7,6,44,64,4];
