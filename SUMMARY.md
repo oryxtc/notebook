@@ -32,5 +32,5 @@
 * vue
 * vue-cli
 * [javascript](javascript.md)
-* javascript-常用方法
+    * javascript-常用方法
 
