@@ -1,3 +1,4 @@
-- **启动监听模式**
-
- `webpack --progress --colors --watch`
+* **启动监听模式**
+```
+webpack --progress --colors --watch
+```
