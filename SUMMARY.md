@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [yii2](yii2.md)
-    * [散碎代码块](散碎代码块.md)
+    * [yii2-代码块](散碎代码块.md)
     * [使用开源后台模板AdminLTE](使用开源后台模板adminlte.md)
     * [后台实现rbac权限管理方法](后台实现rbac权限管理方法.md)
     * [分页小部件的实现](分页小部件的实现.md)
