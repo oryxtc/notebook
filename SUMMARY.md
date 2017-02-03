@@ -37,4 +37,6 @@
     * [日志定时分割实现](日志定时分割实现.md)
 * [mysql](mysql.md)
     * [mysql-常用命令](mysql-常用命令.md)
+* [web](web.md)
+    * [第三方插件](第三方插件.md)
 
