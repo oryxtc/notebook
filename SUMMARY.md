@@ -38,5 +38,5 @@
 * [mysql](mysql.md)
     * [mysql-常用命令](mysql-常用命令.md)
 * [web](web.md)
-    * [第三方插件](第三方插件.md)
+    * [第三方组件](第三方插件.md)
 
