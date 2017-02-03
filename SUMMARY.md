@@ -37,10 +37,8 @@
     * [日志定时分割实现](日志定时分割实现.md)
 * [mysql](mysql.md)
     * [mysql-常用命令](mysql-常用命令.md)
-
 * [facebook](facebook.md)
     * [facebook-检索用户个人主页](facebook-检索用户个人主页.md)
 * web
-    * [第三方储备](web.md)
-
+* [第三方储备](第三方储备.md)
 
