@@ -22,7 +22,7 @@
     * [apple-支付订单查询](苹果内购订单验证.md)
   * [facebook](facebook.md)
     * [facebook-检索用户个人主页](facebook-检索用户个人主页.md)
-  * google
+  * [google](google.md)
     * [google-fcm推送](google-fcm推送.md)
     * [google-支付订单查询](google-.md)
 * [web](web.md)
