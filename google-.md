@@ -1,5 +1,7 @@
 #服务端查询google支付订单状态
 
+官方文档链接:[https://developers.google.cn/android-publisher/](https://developers.google.cn/android-publisher/)
+
 github链接:[https://github.com/google/google-api-php-client](https://github.com/google/google-api-php-client)
 
 1.查询谷歌内购商品订单的实现方法:
@@ -78,7 +80,7 @@ private static function curl_google_subscription(){
         $public_key ="-----BEGIN PUBLIC KEY-----\n".chunk_split($google_public_key, 64, "\n")."-----END PUBLIC KEY-----";
         $public_key_handle = openssl_get_publickey($public_key);
         $result = openssl_verify($inapp_purchase_data, base64_decode($inapp_data_signature), $public_key_handle, OPENSSL_ALGO_SHA1);
-        if (1 !== $result) {
+        if ($result !== 1) {
             return $result;
         }
         return true;
