@@ -12,13 +12,14 @@
   * [php-代码块](货号单-0000001的生成方法.md)
   * [umeditor图片上传至七牛](umeditor图片上传至七牛.md)
   * [init\(\), \_construct\(\) ,behaviors\(\) 编码区别](init-construct-behaviors-编码区别.md)
-  * [苹果内购订单验证](苹果内购订单验证.md)
   * [谷歌内购订单验证](谷歌内购验证.md)
   * [正则表达式-整理](正则表达式-语法.md)
   * [RabbitMQ服务和扩展的安装](rabbitmq消息组件的实现.md)
   * [RabbitMQ功能代码实现](rabbbitmq功能代码实现.md)
   * [Redis扩展的安装](redis扩展的安装.md)
   * [curl连接实现](curl连接实现.md)
+  * [apple](apple.md)
+  * [apple-支付订单查询](苹果内购订单验证.md)
   * [facebook](facebook.md)
     * [facebook-检索用户个人主页](facebook-检索用户个人主页.md)
   * google
@@ -42,6 +43,5 @@
 * [mysql](mysql.md)
   * [mysql-常用命令](mysql-常用命令.md)
 * [第三方储备](第三方储备.md)
-* [phpstorm](phpstorm.md)
-  * [phpstorm-配置提交开发效率](添加nodemodules为library-root.md)
+* apple
 
