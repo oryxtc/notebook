@@ -21,6 +21,10 @@
     * [curl连接实现](curl连接实现.md)
     * [facebook](facebook.md)
         * [facebook-检索用户个人主页](facebook-检索用户个人主页.md)
+    * google
+        * google-fcm推送
+
+
 * [web](web.md)
     * [node.js](node.js.md)
         * [Node.js-常用命令](Node.js 常用命令.md)
@@ -41,6 +45,6 @@
 * [第三方储备](第三方储备.md)
 * [phpstorm](phpstorm.md)
     * [phpstorm-配置提交开发效率](添加nodemodules为library-root.md)
-* google
-* google-fcm推送
+
+
 
