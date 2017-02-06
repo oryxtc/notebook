@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [yii2](yii2.md)
+* yii2
     * [yii2-代码块](yii2/散碎代码块.md)
     * [使用开源后台模板AdminLTE](使用开源后台模板adminlte.md)
     * [后台实现rbac权限管理方法](后台实现rbac权限管理方法.md)
