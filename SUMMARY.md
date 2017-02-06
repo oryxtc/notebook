@@ -37,12 +37,13 @@
   * [http-vhosts配置详解](http-vhosts配置详解.md)
   * [yii2-前后台使用同一域名](yii2-前后台使用同一域名.md)
   * [yii2-前后端分离](yii2-前后端分离.md)
+* nginx
+  * nginx-alias与root区别  
 * [linux](linux.md)
   * [日志定时分割实现](日志定时分割实现.md)
 * [mysql](mysql.md)
   * [mysql-常用命令](mysql-常用命令.md)
 * [第三方储备](第三方储备.md)
-* apple
-* nginx
-* nginx-alias与root区别
+
+
 
