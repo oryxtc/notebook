@@ -22,7 +22,7 @@
     * [facebook](facebook.md)
         * [facebook-检索用户个人主页](facebook-检索用户个人主页.md)
     * [google](google.md)
-        * [google-fcm推送](google-fcm推送.md)
+        * [google-fcm推送](google/google-fcm推送.md)
         * [google-支付订单查询](google-.md)
 * [web](web.md)
     * [node.js](node.js.md)
