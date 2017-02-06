@@ -1,2 +1,4 @@
-# webpack-常用命令
-
+* ###启动监听模式
+```
+webpack --progress --colors --watch
+```
