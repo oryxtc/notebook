@@ -39,6 +39,7 @@
   * [yii2-前后端分离](yii2-前后端分离.md)
 * [nginx](nginx.md)
   * [nginx-alias与root区别  ](nginx-aliasroot.md)
+  * [nginx-同一个IP上配置多个HTTPS主机](nginx-iphttps.md)
 * [linux](linux.md)
   * [日志定时分割实现](日志定时分割实现.md)
 * [mysql](mysql.md)
