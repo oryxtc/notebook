@@ -35,11 +35,11 @@ public static function curlGet( $latlng )
 
 ### 3.生成uuid方法
 
-* 使用PHP内置函数实现
+    * 使用PHP内置函数实现
 ```php
 uniqid(prefix,more_entropy)
 ```
-* 使用自定义方法实现
+    * 使用自定义方法实现
 ```php
 public function getUuid(){ 
     return sprintf('%04x%04x%04x-%04x%04x-%04x%04x%04x', 
