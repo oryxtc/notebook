@@ -39,6 +39,7 @@ public static function curlGet( $latlng )
 ```php
 uniqid(prefix,more_entropy)
 ```
+
     * 使用自定义方法实现
 ```php
 public function getUuid(){ 
