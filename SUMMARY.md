@@ -10,7 +10,7 @@
     * [关于如何在单独的action中关闭Csrf验证 \[ 技术分享 \]](yii2/关于如何在单独的action中关闭csrf验证--技术分享-.md)
     * [init\(\), \_construct\(\) ,behaviors\(\) 编码区别](yii2/init construct behaviors-编码区别.md)
 * [php](php/php.md)
-    * [php-代码块](php/货号单-0000001的生成方法.md)
+    * [php-代码块](php/php-代码块.md)
     * [umeditor图片上传至七牛](php/umeditor图片上传至七牛.md)
     * [正则表达式-整理](php/正则表达式-语法.md)
     * [RabbitMQ服务和扩展的安装](php/rabbitmq消息组件的实现.md)
