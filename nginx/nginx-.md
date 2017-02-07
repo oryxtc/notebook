@@ -1,4 +1,4 @@
-#顶级配置
+#nginx.conf配置
 ```nginx
 #定义 Nginx 运行的用户和用户组
 user nginx;
