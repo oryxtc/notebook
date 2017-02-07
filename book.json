@@ -1,6 +1,12 @@
 {
-    "language": "zh",
     "plugins": [
-        "toggle-chapters"
-    ]
+        "toggle-chapters",
+        "sitemap"
+    ],
+    "pluginsConfig": {
+        "sitemap": {
+            "hostname": "http://oryxtc.win/"
+        }
+    },
+    "language": "zh"
 }
