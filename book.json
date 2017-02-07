@@ -5,7 +5,7 @@
     ],
     "pluginsConfig": {
         "sitemap": {
-            "hostname": "http://oryxtc.win/"
+            "hostname": "http://oryxtc.github.io"
         }
     },
     "language": "zh"
