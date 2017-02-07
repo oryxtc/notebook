@@ -16,7 +16,7 @@ function _get_sn($sn) {
 }
 ```
 
-### 2.通过经纬度获取城市名
+### 2.通过goole Api以经纬度获取城市名
 ```php
 public static function curlGet( $latlng )
 {
