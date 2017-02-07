@@ -17,6 +17,7 @@
   * [RabitMQ安装方法](php/rabbitmq安装方法.md)
   * [Redis扩展的安装](php/redis扩展的安装.md)
   * [curl连接实现](php/curl连接实现.md)
+  * [composer-命令详解](php/composer-命令详解.md)
   * [apple](php/apple/apple.md)
     * [apple-支付订单查询](php/apple/苹果内购订单验证.md)
   * [facebook](php/facebook/facebook.md)
