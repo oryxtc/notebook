@@ -1,5 +1,5 @@
 ### 1.根据b表的某字段值，更新a表的某字段状态
-```mysql
+```sql
 UPDATE ulala_room_list AS a,
  (
 	SELECT
