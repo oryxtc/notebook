@@ -85,3 +85,24 @@ puhlic function validateIdCard($value){
     return ($lastChar === $token); //最后一位校验位校验
 }
 ```
+
+### 5.加密解密函数
+```php
+$str = '111021';
+$key = 'APPYJJ-PHONE-LAZY';
+//加密函数
+function encode($str,$key){
+    $res = base64_encode($str);
+    $code = $res^$key;
+    return $code;
+}
+$str = encode($str,$key);
+print_r($str);
+echo "<hr>";
+//解密函数
+function decode($str,$key)
+{
+    return base64_decode($str^$key);
+}
+print_r(decode($str,$key));
+```
