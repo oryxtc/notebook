@@ -7,3 +7,16 @@ public function _empty(){
     $this->display('Manager@Public:empty');
 }
 ```
+
+###2.空控制器处理
+我们可以给项目定义一个EmptyController类
+```php
+<?php
+namespace Home\Controller;
+use Think\Controller;
+class EmptyController extends Controller{
+    public function index(){
+        echo '你当前访问的控制器不存在';
+    }
+}
+```
