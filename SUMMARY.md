@@ -9,6 +9,8 @@
   * [yii2-user扩展实现用户登录注册](yii2/yii2-user扩展实现用户登录注册.md)
   * [关于如何在单独的action中关闭Csrf验证 \[ 技术分享 \]](yii2/关于如何在单独的action中关闭csrf验证--技术分享-.md)
   * [init\(\), \_construct\(\) ,behaviors\(\) 编码区别](yii2/init construct behaviors-编码区别.md)
+* thinkphp
+  * thinkphp-空操作处理  
 * [php](php/php.md)
   * [php-代码块](php/php-代码块.md)
   * [umeditor图片上传至七牛](php/umeditor图片上传至七牛.md)
@@ -47,6 +49,5 @@
 * [mysql](mysql/mysql.md)
   * [mysql-常用命令](mysql/mysql-常用命令.md)
 * [第三方储备](third party reserves/第三方储备.md)
-* thinkphp
-* thinkphp-空操作处理
+
 
