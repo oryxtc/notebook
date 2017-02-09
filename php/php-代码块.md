@@ -60,3 +60,28 @@ public static function curlGet( $latlng )
         ); 
     }
     ```
+
+### 4.验证身份证函数
+```php
+puhlic function validateIdCard($value){
+    if (!preg_match('/^\d{17}[0-9xX]$/', $value)) { //基本格式校验
+        return false;
+    }
+    $parsed = date_parse(substr($value, 6, 8));
+    if (!(isset($parsed['warning_count']) 
+        && $parsed['warning_count'] == 0)) { //年月日位校验
+        return false;
+    }
+    $base = substr($value, 0, 17);
+    $factor = [7, 9, 10, 5, 8, 4, 2, 1, 6, 3, 7, 9, 10, 5, 8, 4, 2];
+    $tokens = ['1', '0', 'X', '9', '8', '7', '6', '5', '4', '3', '2'];
+    $checkSum = 0;
+    for ($i=0; $i<17; $i++) {
+        $checkSum += intval(substr($base, $i, 1)) * $factor[$i];
+    }
+    $mod = $checkSum % 11;
+    $token = $tokens[$mod];
+    $lastChar = strtoupper(substr($value, 17, 1));
+    return ($lastChar === $token); //最后一位校验位校验
+}
+```
