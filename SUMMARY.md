@@ -9,7 +9,7 @@
   * [yii2-user扩展实现用户登录注册](yii2/yii2-user扩展实现用户登录注册.md)
   * [关于如何在单独的action中关闭Csrf验证 \[ 技术分享 \]](yii2/关于如何在单独的action中关闭csrf验证--技术分享-.md)
   * [init\(\), \_construct\(\) ,behaviors\(\) 编码区别](yii2/init construct behaviors-编码区别.md)
-* thinkphp
+* [thinkphp](thinkphp.md)
   * [thinkphp-空操作 空控制器处理](thinkphp/thinkphp-空操作 空控制器处理.md)
 * [php](php/php.md)
   * [php-代码块](php/php-代码块.md)
