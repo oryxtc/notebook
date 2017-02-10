@@ -49,8 +49,8 @@
 * [mysql](mysql/mysql.md)
   * [mysql-常用命令](mysql/mysql-常用命令.md)
 * [第三方储备](third party reserves/第三方储备.md)
-* [git](git.md)
-  * [git-常用命令](git-.md)
+* [git](git/git.md)
+  * [git-常用命令](git/git-.md)
 
 
 
