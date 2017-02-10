@@ -12,3 +12,7 @@ git push origin master --force
 ```git
 git checkout .
 ```
+### 4.查看当前版本号
+```git
+git rev-parse HEAD
+```
