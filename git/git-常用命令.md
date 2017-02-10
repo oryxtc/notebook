@@ -7,3 +7,8 @@ git reset --hard <HARD>
 ```git
 git push origin master --force
 ```
+
+### 3.丢弃当前全部暂存
+```git
+git checkout .
+```
