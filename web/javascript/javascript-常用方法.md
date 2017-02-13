@@ -1,9 +1,9 @@
-* ###json字符串转换成对象
+###1.json字符串转换成对象
 ```
 var object=$.parseJSON(data)
 ```
 
-* ###删除数组中重复元素
+###2.删除数组中重复元素
 ```javascript
 <script type="text/javascript">
 var  a=[4,6,7,6,44,64,4];
@@ -24,5 +24,17 @@ var res=arr2(a);
 console.debug(res)
 </script>
 ```
+
+###3.去掉字符串中转义和特殊字符
+```javascript
+var excludeSpecial=function(str) {
+	// 去掉转义字符
+	str= str.replace(/[\'\"\\\/\b\f\n\r\t]/g, '');
+	// 去掉特殊字符
+	str= str.replace(/[\@\#\$\%\^\&\*\{\}\:\"\L\<\>\?]/,'');
+	return str;
+};
+```
+
 
 
