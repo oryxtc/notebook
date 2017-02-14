@@ -137,18 +137,22 @@ git tag
 
 ### 29.创建附注标签
 ```git
-git tag -a [tag-name] -m [msg]
+git tag -a [tagname] -m [msg]
 ```
 
 ### 30.创建轻量标签
 ```git
-git tag [tag-name]
+git tag [tagname]
 ```
 
 ### 31.后期打标签
 ```git
-git tag -a [tag-name] <key>
+git tag -a [tagname] <key>
 ```
+
+### 32.检出标签
+```git
+git checkout -b [branchname] [tagname]
 
 ### 1.本地代码彻底回退到某一版本
 ```git
