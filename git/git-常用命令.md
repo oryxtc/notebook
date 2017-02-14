@@ -82,6 +82,25 @@ git mv
 git log [-p][-num][--stat]
 ```
 
+### 18.重新提交
+```git
+git commit --amend
+```
+
+### 19.取消暂存文件
+```git
+git reset HEAD <file>
+```
+
+#### 20.撤消对文件的修改
+```git
+git checkout -- <file>
+```
+
+### 21.远程仓库使用的简写与其对应的URL
+```git
+git remote -v
+```
 
 ### 1.本地代码彻底回退到某一版本
 ```git
