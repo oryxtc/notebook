@@ -26,7 +26,7 @@ git init
 
 ### 6.克隆现有的仓库
 ```git
-git clone [url][mylibrary]
+git clone [url] [mylibrary]
 ```
 
 ### 7.检查当前文件状态
@@ -143,6 +143,11 @@ git tag -a [tag-name] -m [msg]
 ### 30.创建轻量标签
 ```git
 git tag [tag-name]
+```
+
+### 31.后期打标签
+```git
+git tag -a [tag-name] <key>
 ```
 
 ### 1.本地代码彻底回退到某一版本
