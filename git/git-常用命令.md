@@ -138,6 +138,12 @@ git tag
 ### 29.创建附注标签
 ```git
 git tag -a [tag-name] -m [msg]
+```
+
+### 30.创建轻量标签
+```git
+git tag [tag-name]
+```
 
 ### 1.本地代码彻底回退到某一版本
 ```git
