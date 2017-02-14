@@ -55,7 +55,7 @@ git commit -m <"msg">
 
 ### 12.跳过使用暂存区域
 ```git
-git commit -a -m <"msg">
+git commit -a -m [msg]
 ```
 
 ### 13.移除文件
@@ -79,7 +79,7 @@ git mv
 ```
 ### 17.查看提交历史
 ```git
-git log [-p][-num][--stat]
+git log [-p] [-num] [--stat]
 ```
 ### 18.重新提交
 ```git
@@ -125,15 +125,19 @@ git remote show [remote-name]
 git remote rename [remote-name] [new-remote-name]
 ```
 
-### 26.远程仓库删除
+### 27.远程仓库删除
 ```git
 git remote rm [remote-name]
 ```
 
-### 27.列出标签
+### 28.列出标签
 ```git
 git tag
 ```
+
+### 29.创建附注标签
+```git
+git tag -a [tag-name] -m [msg]
 
 ### 1.本地代码彻底回退到某一版本
 ```git
