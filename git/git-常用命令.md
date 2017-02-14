@@ -153,6 +153,7 @@ git tag -a [tagname] <key>
 ### 32.检出标签
 ```git
 git checkout -b [branchname] [tagname]
+```
 
 ### 1.本地代码彻底回退到某一版本
 ```git
