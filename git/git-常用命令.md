@@ -130,6 +130,11 @@ git remote rename [remote-name] [new-remote-name]
 git remote rm [remote-name]
 ```
 
+### 27.列出标签
+```git
+git tag
+```
+
 ### 1.本地代码彻底回退到某一版本
 ```git
 git reset --hard <HARD>
