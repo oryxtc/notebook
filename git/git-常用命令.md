@@ -120,6 +120,11 @@ git push [remote-name] [branch-name]
 git remote show [remote-name]
 ```
 
+### 26.远程仓库重命名
+```git
+git remote rename [remote-name] [new-remote-name]
+```
+
 ### 1.本地代码彻底回退到某一版本
 ```git
 git reset --hard <HARD>
