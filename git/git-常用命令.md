@@ -111,6 +111,11 @@ git remote add <shortname> <url>
 git fetch [remote-name]
 ```
 
+### 24.推送到远程仓库
+```git
+git push [remote-name] [branch-name]
+```
+
 ### 1.本地代码彻底回退到某一版本
 ```git
 git reset --hard <HARD>
