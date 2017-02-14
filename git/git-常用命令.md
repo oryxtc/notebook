@@ -115,6 +115,9 @@ git fetch [remote-name]
 ```git
 git push [remote-name] [branch-name]
 ```
+### 25.查看远程仓库
+```git
+git remote show [remote-name]
 
 ### 1.本地代码彻底回退到某一版本
 ```git
