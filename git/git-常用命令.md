@@ -155,6 +155,20 @@ git tag -a [tagname] <key>
 git checkout -b [branchname] [tagname]
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### 1.本地代码彻底回退到某一版本
 ```git
 git reset --hard <HARD>
