@@ -101,6 +101,11 @@ git checkout -- <file>
 git remote -v
 ```
 
+### 22.添加远程仓库
+```git
+git remote add <shortname> <url>
+```
+
 ### 1.本地代码彻底回退到某一版本
 ```git
 git reset --hard <HARD>
