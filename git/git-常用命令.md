@@ -108,7 +108,7 @@ git remote add <shortname> <url>
 
 ### 23.从远程仓库中抓取与拉取
 ```git
-git fetch
+git fetch [remote-name]
 ```
 
 ### 1.本地代码彻底回退到某一版本
