@@ -19,6 +19,16 @@ git <verb> --help
 man git-<verb>
 ```
 
+### 5.在现有目录中初始化仓库
+```git
+git init
+```
+
+### 6.克隆现有的仓库
+```git
+git clone [url][mylibrary]
+```
+
 ### 1.本地代码彻底回退到某一版本
 ```git
 git reset --hard <HARD>
