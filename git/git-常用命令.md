@@ -125,6 +125,11 @@ git remote show [remote-name]
 git remote rename [remote-name] [new-remote-name]
 ```
 
+### 26.远程仓库删除
+```git
+git remote rm [remote-name]
+```
+
 ### 1.本地代码彻底回退到某一版本
 ```git
 git reset --hard <HARD>
