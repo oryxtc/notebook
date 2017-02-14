@@ -29,6 +29,46 @@ git init
 git clone [url][mylibrary]
 ```
 
+### 7.检查当前文件状态
+```git
+git status
+```
+### 8.添加内容到下一次提交中
+```git
+git add <file>
+```
+
+### 9.查看尚未暂存的文件更新了哪些部分
+```git
+git diff
+```
+
+### 10.查看已暂存的将要添加到下次提交里的内容
+```git
+git diff --cached
+```
+
+### 11.提交更新
+```git
+git commit -m <"msg">
+```
+
+### 12.跳过使用暂存区域
+```git
+git commit -a -m <"msg">
+```
+
+### 13.移除文件
+```git
+git rm
+```
+
+### 14.强制移除已放到暂存区域的文件
+```git
+git rm -f
+```
+
+
 ### 1.本地代码彻底回退到某一版本
 ```git
 git reset --hard <HARD>
