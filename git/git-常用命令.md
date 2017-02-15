@@ -170,7 +170,10 @@ git branch [branc-name]
 git checkout [branch-name]
 ```
 
-
+### 36.删除本地分支
+```git
+git branch -d [branch-name]
+```
 
 
 
