@@ -175,6 +175,10 @@ git checkout [branch-name]
 git branch -d [branch-name]
 ```
 
+### 37.列出所有分支
+```git
+git branch
+```
 
 
 
