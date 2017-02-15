@@ -166,7 +166,7 @@ git branch [branc-name]
 ```
 
 ### 35.分支切换
-···git
+```git
 git checkout [branch-name]
 ```
 
