@@ -155,7 +155,10 @@ git tag -a [tagname] <key>
 git checkout -b [branchname] [tagname]
 ```
 
-
+### 33.创建别名
+```git
+git config --global [alias.alias-name] [command]
+```
 
 
 
