@@ -160,12 +160,15 @@ git checkout -b [branchname] [tagname]
 git config --global [alias.alias-name] [command]
 ```
 
+### 34.分支创建
+```git
+git branch [branc-name]
+```
 
-
-
-
-
-
+### 35.分支切换
+···git
+git checkout [branch-name]
+```
 
 
 
