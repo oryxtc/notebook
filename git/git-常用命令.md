@@ -184,6 +184,11 @@ git branch
 git push (remote) (branch)
 ```
 
+### 39.删除远程分支
+```git
+git push origin --delete (branch)
+```
+
 
 
 ### 1.本地代码彻底回退到某一版本
