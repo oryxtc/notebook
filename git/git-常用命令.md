@@ -186,7 +186,7 @@ git push (remote) (branch)
 
 ### 39.删除远程分支
 ```git
-git push origin --delete (branch)
+git push (remote) --delete (branch)
 ```
 
 
