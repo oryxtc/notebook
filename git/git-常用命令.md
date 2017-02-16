@@ -189,6 +189,10 @@ git push (remote) (branch)
 git push (remote) --delete (branch)
 ```
 
+### 40.变基
+```git
+git rebase [branch-name]
+```
 
 
 ### 1.本地代码彻底回退到某一版本
