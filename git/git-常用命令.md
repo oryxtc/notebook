@@ -209,6 +209,11 @@ git rebase --onto master server client
 git pull --rebase
 ```
 
+### 44.把现有仓库导出为裸仓库
+```git
+git clone --bare [library-name] [newlibrary-name]
+```
+
 
 ### 1.本地代码彻底回退到某一版本
 ```git
