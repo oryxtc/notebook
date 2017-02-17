@@ -219,15 +219,9 @@ git clone --bare [library-name] [newlibrary-name]
 scp -r my_project.git user@git.example.com:/opt/git
 ```
 
-
-### 1.本地代码彻底回退到某一版本
+### 46.强制提交
 ```git
-git reset --hard <HARD>
-```
-
-### 2.强制提交
-```git
-git push origin master --force
+git push [remote-name] [branch-name] --force
 ```
 
 ### 3.丢弃当前全部暂存
