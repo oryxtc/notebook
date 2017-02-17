@@ -194,6 +194,11 @@ git push (remote) --delete (branch)
 git rebase [branch-name]
 ```
 
+### 41.将指定分支变基到目标分支
+```git
+git rebase [basebranch] [topicbranch]
+```
+
 
 ### 1.本地代码彻底回退到某一版本
 ```git
