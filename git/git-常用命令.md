@@ -199,6 +199,16 @@ git rebase [basebranch]
 git rebase [basebranch] [topicbranch]
 ```
 
+### 42.取出 client 分支，找出处于 client 分支和 server 分支的共同祖先之后的修改，然后把它们在 master 分支上重放一遍
+```git
+git rebase --onto master server client
+```
+
+### 43.用变基解决变基
+```git
+git pull --rebase
+```
+
 
 ### 1.本地代码彻底回退到某一版本
 ```git
