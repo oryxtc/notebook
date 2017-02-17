@@ -191,7 +191,7 @@ git push (remote) --delete (branch)
 
 ### 40.变基
 ```git
-git rebase [branch-name]
+git rebase [topicbranch]
 ```
 
 ### 41.将指定分支变基到目标分支
