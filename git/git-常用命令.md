@@ -214,6 +214,11 @@ git pull --rebase
 git clone --bare [library-name] [newlibrary-name]
 ```
 
+### 45.复制你的裸仓库来创建一个新仓库
+```git
+scp -r my_project.git user@git.example.com:/opt/git
+```
+
 
 ### 1.本地代码彻底回退到某一版本
 ```git
