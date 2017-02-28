@@ -33,7 +33,7 @@
   * [webpack](web/webpack/webpack.md)
     * [webpack-常用命令](web/webpack/webpack-常用命令.md)
   * [vue](web/vue/vue.md)
-  * [vue-cli](web/node.js/vue-cli.md)
+    * [vue-cli](web/vue/vue-cli.md)
   * [javascript](web/javascript/javascript.md)
     * [javascript-常用方法](web/javascript/javascript-常用方法.md)
 * [apache](apche/apache.md)
