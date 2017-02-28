@@ -13,4 +13,8 @@
 
 #### 1.因为国内访问docker hub速度实现难以忍受,这里推荐使用阿里docker加速
 
-#### 2.在命令行输入,已新建虚拟机
+#### 2.在命令行输入,新建虚拟机
+```bash
+docker-machine create -d hyperv  --engine-registry-mirror YOUR-ACCELERATED-ADDRESS
+MACHINE-NAME
+```
