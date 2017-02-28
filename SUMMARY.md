@@ -8,7 +8,7 @@
   * [分页小部件的实现](yii2/分页小部件的实现.md)
   * [yii2-user扩展实现用户登录注册](yii2/yii2-user扩展实现用户登录注册.md)
   * [关于如何在单独的action中关闭Csrf验证 \[ 技术分享 \]](yii2/关于如何在单独的action中关闭csrf验证--技术分享-.md)
-  * [init(),_construct(),behaviors() 编码区别](yii2/init-construct-behaviors-编码区别.md)
+  * [init\(\),\_construct\(\),behaviors\(\) 编码区别](yii2/init-construct-behaviors-编码区别.md)
 * [thinkphp](thinkphp/thinkphp.md)
   * [thinkphp-空操作 空控制器处理](thinkphp/thinkphp-空操作-空控制器处理.md)
 * [php](php/php.md)
@@ -33,7 +33,7 @@
   * [webpack](web/webpack/webpack.md)
     * [webpack-常用命令](web/webpack/webpack-常用命令.md)
   * [vue](web/node/vue.md)
-  * vue-cli
+  * [vue-cli](web/node.js/vue-cli.md)
   * [javascript](web/javascript/javascript.md)
     * [javascript-常用方法](web/javascript/javascript-常用方法.md)
 * [apache](apche/apache.md)
