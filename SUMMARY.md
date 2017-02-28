@@ -51,5 +51,5 @@
 * [git](git/git.md)
   * [git-常用命令](git/git-常用命令.md)
   * [git-常用命令的选项](git/git-常用命令的选项.md)
-* third party reserves
+* [third party reserves](third-party-reserves.md)
 
