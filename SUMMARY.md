@@ -7,7 +7,7 @@
   * [后台实现rbac权限管理方法](yii2/后台实现rbac权限管理方法.md)
   * [分页小部件的实现](yii2/分页小部件的实现.md)
   * [yii2-user扩展实现用户登录注册](yii2/yii2-user扩展实现用户登录注册.md)
-  * [关于如何在单独的action中关闭Csrf验证 \[ 技术分享 \]](yii2/关于如何在单独的action中关闭csrf验证--技术分享-.md)
+  * [关于如何在单独的action中关闭Csrf验证](yii2/关于如何在单独的action中关闭csrf验证--技术分享-.md)
   * [init\(\),\_construct\(\),behaviors\(\) 编码区别](yii2/init-construct-behaviors-编码区别.md)
 * [thinkphp](thinkphp/thinkphp.md)
   * [thinkphp-空操作 空控制器处理](thinkphp/thinkphp-空操作-空控制器处理.md)
