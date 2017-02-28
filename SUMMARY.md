@@ -32,7 +32,7 @@
     * [Node.js-常用命令](web/node.js/Node.js-常用命令.md)
   * [webpack](web/webpack/webpack.md)
     * [webpack-常用命令](web/webpack/webpack-常用命令.md)
-  * [vue](web/node/vue.md)
+  * [vue](web/vue/vue.md)
   * [vue-cli](web/node.js/vue-cli.md)
   * [javascript](web/javascript/javascript.md)
     * [javascript-常用方法](web/javascript/javascript-常用方法.md)
