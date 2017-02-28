@@ -1,0 +1,16 @@
+# 安装Docker for Windows
+
+#### 1.首先请确保你系统为win10 企业或者教育版,并开启Hyper-V
+![](/assets/QQ图片20170228103513.png)
+
+#### 2.确认已开启支持虚拟化,若禁用,BIOS中开启 Intel Virtual Technology
+![](/assets/QQ图片20170228103946.png)
+
+#### 3.下载地址为: [https://docs.docker.com/docker-for-windows/install/](https://docs.docker.com/docker-for-windows/install/)
+
+
+# 设置docker-machine
+
+#### 1.因为国内访问docker hub速度实现难以忍受,这里推荐使用阿里docker加速
+
+#### 2.在命令行输入,已新建虚拟机
