@@ -12,12 +12,18 @@ RUN  apt-get update \	#更新软件包
 	&& docker-php-ext-enable redis \	#php基础镜像内置方法开启redis扩展
 ```
 
-## 3.创建镜像,命令行进入当前目录,命令行输入:
+## 3.创建镜像
+通过命令进入当前目录,命令行输入:
 ```
 docker build -t <user-name>/<images-name>[:TAG] .
 ```
 
-## 4.将该镜像推送到`Docker Hub`,命令行输入:
+## 4.将该镜像推送到`Docker Hub`
+先执行登录操作,命令行输入:
+```bash
+docker login
 ```
+登录成功后,命令行再输入:
+```bash
 docker push <user-name>/<images-name>[:TAG]
 ```
