@@ -18,6 +18,7 @@ location /img/ {
 
 
 **3.图片胜过千言万语**
+
 **for alias**
 ![nginx-alias](/assets/nginx-alias.png)
 **for root:**
