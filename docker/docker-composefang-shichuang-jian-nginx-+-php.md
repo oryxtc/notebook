@@ -36,3 +36,14 @@ volumes:    #这里会自动创建docker volume
             mountpoint: /d/www/oryxtc    #项目总目录
 ```
 >注意:因为这里卷的创建依赖卷插件`local-persist` 所以要保证之前创建的容器`volume-plugin-local-persist`在运行中
+
+## 4.建立项目服务
+命令行进入项目根目录,命令行输入:
+```bash
+docker-compose build
+```
+## 5.启动并运行项目
+命令行输入:
+```bash
+docker-compose up
+```
