@@ -55,4 +55,5 @@
 * [docker](docker/docker.md)
   * [docker安装-Windows版](docker/docker安装-windows版.md)
   * [Dockerfile方式创建php镜像](docker/dockerfilefang-shi-chuang-jian-jing-xiang.md)
+  * [docker-compose方式创建 nginx+php](docker/docker-composefang-shichuang-jian-nginx-+-php.md)
 
