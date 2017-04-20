@@ -1,7 +1,5 @@
 ---
-
 disqus: false
-
 ---
 # yii2
 
