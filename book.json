@@ -1,11 +1,15 @@
 {
     "plugins": [
         "toggle-chapters",
-        "disqus"
+        "disqus",
+        "sitemap"
     ],
     "pluginsConfig": {
         "disqus": {
             "shortName": "oryxtc"
+        },
+        "sitemap": {
+            "hostname": "http://oryxtc.win/"
         }
     },
     "language": "zh-hans"
