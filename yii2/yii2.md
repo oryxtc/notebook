@@ -1,2 +1,5 @@
+---
+disqus: false
+---
 # yii2
 
