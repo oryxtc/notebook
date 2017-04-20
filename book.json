@@ -8,7 +8,7 @@
         "sitemap": {
             "hostname": "http://oryxtc.win"
         },
-          "disqus": {
+        "disqus": {
             "shortName": "oryxtc"
         }
     },
