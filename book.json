@@ -2,19 +2,14 @@
     "plugins": [
         "toggle-chapters",
         "sitemap",
-        "donate"
+        "disqus"
     ],
     "pluginsConfig": {
         "sitemap": {
             "hostname": "http://oryxtc.win"
         },
-        "donate": {
-            "wechat": "https://zhangjikai.com/resource/weixin.png",
-            "alipay": "https://zhangjikai.com/resource/alipay.png",
-            "title": "",
-            "button": "赏",
-            "alipayText": "支付宝打赏",
-            "wechatText": "微信打赏"
+          "disqus": {
+            "shortName": "oryxtc"
         }
     },
     "language": "zh-hans"
