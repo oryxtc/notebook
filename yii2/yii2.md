@@ -1,5 +1,5 @@
 ---
-disqus: false
+disqus:false
 ---
 # yii2
 
