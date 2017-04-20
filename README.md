@@ -1,5 +1,5 @@
 ---
-disqus: false
+disqus:false
 ---
 # 代码托管地址:[https://github.com/oryxtc/notebook](https://github.com/oryxtc/notebook)
 
