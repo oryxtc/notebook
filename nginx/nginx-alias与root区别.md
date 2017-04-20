@@ -21,6 +21,7 @@ location /img/ {
 
 **for alias**
 ![nginx-alias](/assets/nginx-alias.png)
+
 **for root:**
 ![nginx-root](/assets/nginx-root.png)
 
