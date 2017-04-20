@@ -7,7 +7,7 @@
     "pluginsConfig": {
         "sitemap": {
             "hostname": "http://oryxtc.win"
-        };
+        },
         "donate": {
             "wechat": "https://zhangjikai.com/resource/weixin.png",
             "alipay": "https://zhangjikai.com/resource/alipay.png",
