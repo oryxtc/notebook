@@ -1,7 +1,7 @@
 {
     "plugins": [
         "toggle-chapters",
-        "sitemap".
+        "sitemap",
         "donate"
     ],
     "pluginsConfig": {
