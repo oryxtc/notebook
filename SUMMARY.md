@@ -4,7 +4,7 @@
 * [yii2](yii2/yii2.md)
   * [yii2-代码块](yii2/yii2-代码块.md)
   * [开源后台模板AdminLTE](yii2/使用开源后台模板adminlte.md)
-  * [后台实现rbac权限管理方法](yii2/后台实现rbac权限管理方法.md)
+  * [RBAC控制与管理的实现](yii2/后台实现rbac权限管理方法.md)
   * [分页小部件的实现](yii2/分页小部件的实现.md)
   * [yii2-user扩展实现用户登录注册](yii2/yii2-user扩展实现用户登录注册.md)
   * [关于如何在单独的action中关闭Csrf验证](yii2/关于如何在单独的action中关闭csrf验证--技术分享-.md)
