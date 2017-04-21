@@ -1,10 +1,10 @@
 ---
-title: 用户登录注册扩展yii2-user
+title: 用户管理模块yii2-user
 date: 2017/1/14 20:46:25
 categories: yii2
 tags: 
-- 扩展
-description: 分页功能是网页中最基本的功能,本文详解通过小部件LinkPager来实现对分页的显示与控制
+- 模块
+description:  您可以使用yii2-user，它是基于Yii2的灵活的用户管理模块，用于处理常见任务，如注册，身份验证和密码检索
 ---
 #### 引入`dektrium/yii2-user`的代码
 在`github`上的托管地址:[https:\/\/github.com\/dektrium\/yii2-user](https://github.com/dektrium/yii2-user),
