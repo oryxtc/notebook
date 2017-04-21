@@ -9,7 +9,6 @@ description: 后台管理系统多为公司或合作者使用,对界面的样式
 ---
 ##### 1.引入`AdminLTE`的代码
 在`github`上的托管地址:[https://github.com/almasaeed2010/AdminLTE](https://github.com/almasaeed2010/AdminLTE)
-
 使用`composer`方式引入
 
 ```bash
