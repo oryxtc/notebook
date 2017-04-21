@@ -1,11 +1,11 @@
 ---
 title: 开源后台模板AdminLTE
 date: 2017/1/14 20:46:25
-categories:: yii2
+categories: yii2
 tags: 
 - AdminLTE
 - 模板
-description:
+description: 后台管理系统多为公司或合作者使用,对界面的样式定制性要求不高,更侧重于功能.本文详解yiii2如何集成AdminLTE
 ---
 ##### 1.引入`AdminLTE`的代码
 在`github`上的托管地址:[https://github.com/almasaeed2010/AdminLTE](https://github.com/almasaeed2010/AdminLTE)
