@@ -5,7 +5,7 @@ categories:: yii2
 tags: 
 - AdminLTE
 - 模板
-description: {% fi http://ooqid2far.bkt.clouddn.com/myblog/adminLte.png, alt, adminLte %}
+description:
 ---
 ##### 1.引入`AdminLTE`的代码
 在`github`上的托管地址:[https://github.com/almasaeed2010/AdminLTE](https://github.com/almasaeed2010/AdminLTE)
