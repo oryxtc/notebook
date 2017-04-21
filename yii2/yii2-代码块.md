@@ -1,8 +1,9 @@
 ---
 title: yii2-代码块
 date: 2017/1/14 20:46:25
-categories: yii2
+categories:: yii2
 tags: yii2
+description: yii2常用的方法实现
 ---
 ##### 得到相应内容 格式化为json格式
 ```php
