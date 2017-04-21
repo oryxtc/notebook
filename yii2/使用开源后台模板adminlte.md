@@ -7,7 +7,7 @@ tags:
 - 模板
 description: 后台管理系统多为公司或合作者使用,对界面的样式定制性要求不高,更侧重于功能.本文详解yiii2如何集成AdminLTE
 ---
-##### 1.引入`AdminLTE`的代码
+##### 引入`AdminLTE`的代码
 在`github`上的托管地址:[https://github.com/almasaeed2010/AdminLTE](https://github.com/almasaeed2010/AdminLTE)
 使用`composer`方式引入
 
@@ -15,7 +15,7 @@ description: 后台管理系统多为公司或合作者使用,对界面的样式
 composer require "almasaeed2010/adminlte=~2.0"
 ```
 
-##### 2.引入`AdminLTE Asset Bundle`的代码
+##### 引入`AdminLTE Asset Bundle`的代码
 在`github`上的托管地址:[https://github.com/dmstr/yii2-adminlte-asset](https://github.com/dmstr/yii2-adminlte-asset)
 使用`composer`方式引入类
 
@@ -23,7 +23,7 @@ composer require "almasaeed2010/adminlte=~2.0"
 composer require dmstr/yii2-adminlte-asset "2.*"
 ```
 
-##### 3.如果使用的YII2高级模式
+##### 如果使用的YII2高级模式
 后台应用在`/backend，所以`在`backend/config/main.php`中配置
 
 ```php
@@ -42,6 +42,6 @@ composer require dmstr/yii2-adminlte-asset "2.*"
 
 
 
-##### 4.这是成功后，输入后台地址的显示结果
+##### 这是成功后，输入后台地址的显示结果
 
 ![](http://ooqid2far.bkt.clouddn.com/myblog/adminLte.png!ratio.1000)
