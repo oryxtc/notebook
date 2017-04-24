@@ -4,7 +4,6 @@ date: 2017/1/14 20:46:25
 categories: yii2
 description: 由于`init()`函数与`_construct()`与`behaviors()`函数因为功能不一样，代码实现上也有细微不同.
 ---
-
 #### `_construct()`函数编码风格
 
 ```php
