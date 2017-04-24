@@ -1,9 +1,9 @@
 ---
-title: 用户管理模块yii2-user
+title: 在单独的action中关闭csrf验证
 date: 2017/1/14 20:46:25
 categories: yii2
 tags: 
-- 模块
+- csrf
 description: 由于`Yii2 Controller Csrf`验证是在`beforeAction`中完成的，所以在`action`中指定 `$this->enableCsrfValidation = false`,不能实现局部关闭Csrf.
 ---
 #### 新建一个`Behavior`
