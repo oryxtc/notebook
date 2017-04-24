@@ -6,6 +6,7 @@ tags:
 - csrf
 description: 由于`Yii2 Controller Csrf`验证是在`beforeAction`中完成的，所以在`action`中指定 `$this->enableCsrfValidation = false`,不能实现局部关闭Csrf.
 ---
+
 #### 新建一个`Behavior`
 
 ```php
