@@ -1,4 +1,16 @@
-#通过Fcm实现消息推送
+---
+title: google-fcm实现推送
+date: 2017/1/14 20:46:25
+categories:
+- php
+- google
+tags:
+- php
+- google-fcm
+description: 使用google-fcm发送推送消息
+---
+
+#### 通过fcm实现消息推送
 
 ```php
 public static function sendMessages() {
