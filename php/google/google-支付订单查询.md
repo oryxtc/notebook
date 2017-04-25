@@ -1,10 +1,20 @@
-#服务端查询google支付订单状态
+---
+title: google-支付订单查询
+date: 2017/1/14 20:46:25
+categories:
+- php
+- google
+tags:
+- php
+- google
+description: 通过access-token,获取用户基本信息
+---
 
-官方文档链接:[https://developers.google.cn/android-publisher/](https://developers.google.cn/android-publisher/)
+> 官方文档链接:[https://developers.google.cn/android-publisher/](https://developers.google.cn/android-publisher/)
 
-github链接:[https://github.com/google/google-api-php-client](https://github.com/google/google-api-php-client)
+>github链接:[https://github.com/google/google-api-php-client](https://github.com/google/google-api-php-client)
 
-1.查询谷歌内购商品订单的实现方法:
+### 查询google的支付订单
 ```php
 public static function curl_google_product(){
     // include your composer dependencies
@@ -29,7 +39,7 @@ public static function curl_google_product(){
     }
 }
 ```
-1.1.如果返回值为
+##### 如果返回错误为`The current user has insufficient permission...`
 
 	Google_Service_Exception: {
         "error": {
@@ -46,7 +56,7 @@ public static function curl_google_product(){
 需要在谷歌控制台中将xx.json中的`client_email`设置为管理员用户
  
  
-2.查询谷歌订购商品的实现方法
+### 查询google的订阅订单
  ```php
 private static function curl_google_subscription(){
     // include your composer dependencies
@@ -72,7 +82,7 @@ private static function curl_google_subscription(){
 }
 ```
 
-###使用公钥进行算法验证(安全性上不高,不推荐)
+### 使用公钥进行算法验证(安全性上不高,不推荐)
 ```php
     public static function curl_post_google($inapp_purchase_data,$inapp_data_signature){
         //$inapp_purchase_data,$inapp_data_signature 为用户付款后,谷歌返回值(或app端返回)
