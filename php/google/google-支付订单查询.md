@@ -12,7 +12,7 @@ description: 通过access-token,获取用户基本信息
 
 > 官方文档链接:[https://developers.google.cn/android-publisher/](https://developers.google.cn/android-publisher/)
 
->github链接:[https://github.com/google/google-api-php-client](https://github.com/google/google-api-php-client)
+> github链接:[https://github.com/google/google-api-php-client](https://github.com/google/google-api-php-client)
 
 ### 查询google的支付订单
 ```php
@@ -43,17 +43,17 @@ public static function curl_google_product(){
 #### 如果返回错误为`The current user has insufficient permission...`
 ```php
 Google_Service_Exception: {
-    "error": {
-        "errors": [{
-            "domain": "androidpublisher",
-            "reason": "permissionDenied",
-            "message": "The current user has insufficient permissions to perform the requested operation."
-        }],
-        "code": 401,
-        "message": "The current user has insufficient permissions to perform the requested operation."
+	"error": {
+		"errors": [{
+			"domain": "androidpublisher",
+			"reason": "permissionDenied",
+			"message": "The current user has insufficient permissions to perform the requested operation."
+		}],
+		"code": 401,
+		"message": "The current user has insufficient permissions to perform the requested operation."
    }
 }
-```    
+```
 需要在谷歌控制台中将xx.json中的`client_email`设置为管理员用户
 
 ### 查询google的订阅订单
