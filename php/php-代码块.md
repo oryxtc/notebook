@@ -1,4 +1,12 @@
-### 1.货号单 0000001的生成方法
+---
+title: php-代码块
+date: 2017/1/14 20:46:25
+categories: php
+tags: 
+- php
+description:  货号单 0000001的生成方法&通过goole Api以经纬度获取城市名...
+---
+#### 货号单 0000001的生成方法
 ```php
 function _get_sn($sn) {
     if ($sn) {
@@ -16,7 +24,7 @@ function _get_sn($sn) {
 }
 ```
 
-### 2.通过goole Api以经纬度获取城市名
+#### 通过goole Api以经纬度获取城市名
 ```php
 public static function curlGet( $latlng )
 {
@@ -33,7 +41,7 @@ public static function curlGet( $latlng )
 }
 ```
 
-### 3.生成uuid方法
+#### 生成uuid方法
 
  * 使用PHP内置函数实现
     ```php
@@ -61,7 +69,7 @@ public static function curlGet( $latlng )
     }
     ```
 
-### 4.验证身份证函数
+#### 验证身份证函数
 ```php
 puhlic function validateIdCard($value){
     if (!preg_match('/^\d{17}[0-9xX]$/', $value)) { //基本格式校验
@@ -86,7 +94,7 @@ puhlic function validateIdCard($value){
 }
 ```
 
-### 5.加密解密函数
+#### 加密解密函数
 ```php
 $str = '111021';
 $key = 'APPYJJ-PHONE-LAZY';
