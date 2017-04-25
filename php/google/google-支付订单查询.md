@@ -39,6 +39,7 @@ public static function curl_google_product(){
     }
 }
 ```
+
 ##### 如果返回错误为`The current user has insufficient permission...`
 ```php
 Google_Service_Exception: {
