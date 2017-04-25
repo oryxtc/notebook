@@ -1,8 +1,19 @@
-#检索用户个人主页
+---
+title: facebook-检索用户个人信息
+date: 2017/1/14 20:46:25
+categories:
+- php
+- facebook
+tags: 
+- php
+- facebook
+description:  通过access-token,获取用户基本信息
+---
 
-github链接:[https://github.com/facebook/php-graph-sdk](https://github.com/facebook/php-graph-sdk)
+#### 检索用户个人信息
 
-官方文档链接:[https://developers.facebook.com/docs/php](https://developers.facebook.com/docs/php)
+>github链接:[https://github.com/facebook/php-graph-sdk](https://github.com/facebook/php-graph-sdk)
+>官方文档链接:[https://developers.facebook.com/docs/php](https://developers.facebook.com/docs/php)
 
 ```php
 $fb = new \Facebook\Facebook([
