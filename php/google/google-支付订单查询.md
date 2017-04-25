@@ -55,8 +55,7 @@ Google_Service_Exception: {
 }
 ```    
 需要在谷歌控制台中将xx.json中的`client_email`设置为管理员用户
- 
- 
+
 ### 查询google的订阅订单
 ```php
 private static function curl_google_subscription(){
