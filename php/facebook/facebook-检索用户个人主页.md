@@ -10,7 +10,7 @@ tags:
 description:  通过access-token,获取用户基本信息
 ---
 
-#### 检索用户个人信息
+### 检索用户个人信息
 
 >github链接:[https://github.com/facebook/php-graph-sdk](https://github.com/facebook/php-graph-sdk)
 >官方文档链接:[https://developers.facebook.com/docs/php](https://developers.facebook.com/docs/php)
