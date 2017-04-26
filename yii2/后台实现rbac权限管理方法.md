@@ -61,7 +61,7 @@ public $userTable = '{{%administrator}}';
 
 ### 验证是否引入成功
 在浏览器地址栏中中输入`后台地址路径/rbac`(该地址经过`urlManager`美化),即可看见效果
-![yii2-admin](http://ooqid2far.bkt.clouddn.com/yii2-admin.png)
+![yii2-admin](http://ooqid2far.bkt.clouddn.com/myblog/yii2-admin.png)
 
 
 

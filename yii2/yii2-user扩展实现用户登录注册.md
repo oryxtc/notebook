@@ -66,7 +66,7 @@ if (Yii::$app->user->isGuest) {
 }
 ```
 #### 输入你项目网址,效果如下
-![yii2-user](http://ooqid2far.bkt.clouddn.com/yii2-user.png)
+![yii2-user](http://ooqid2far.bkt.clouddn.com/myblog/yii2-user.png)
 
 >当你注册新用户后,该扩展默认会发送邮件,必须邮箱验证后才能正式登陆,如果需要修改配置参数请查阅官方文档
 

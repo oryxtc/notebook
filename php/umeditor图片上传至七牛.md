@@ -1,4 +1,14 @@
-**1.确定图片上传实例化类的路径,在`umeditor/php/index.php`**
+---
+title: umeditor图片上传至七牛
+date: 2017/1/14 20:46:25
+categories: php
+tags: 
+- umeditor
+- 七牛
+description: 在使用umeditor的时候,有时候想插入的图片直接上传至七牛而不是储存在服务器时,本文详解了实现步骤
+---
+
+### 确定图片上传实例化类的路径,查看`umeditor/php/index.php`
 
 ```php
 header("Content-Type:text/html;charset=utf-8");
@@ -23,8 +33,7 @@ if ($callback) {
 }
 ```
 
-**2.修改`uploderController.php` 上传类 `upfile()`**
-
+### 修改`uploderController.php` 上传类 `upfile()`
 ```php
 // $folder = $this->getFolder();
 //不上传到本地
@@ -42,7 +51,7 @@ $result=$this->updateQiniu($file[ "tmp_name" ]);
 $this->fullName='http://xxxxxxx.bkt.clouddn.com/'.$result['hash'];
 ```
 
-**3.实现`updateQiniu()` 方法**
+### 实现`updateQiniu()` 方法
 ```php
 private function updateQiniu($tmp_name){
     include '../../../../../vendor/qiniu/php-sdk/autoload.php'; //十分重要

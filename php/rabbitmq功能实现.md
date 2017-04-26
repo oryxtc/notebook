@@ -1,9 +1,18 @@
-##RabbitMQ 功能实现
-引入php-amqplib类库,类库地址为[https://github.com/php-amqplib/php-amqplib](https://github.com/php-amqplib/php-amqplib)
+---
+title: rabbitmq功能实现
+date: 2017/1/14 20:46:25
+categories: php
+tags: 
+- rabbitmq
+description:  rabbitmq部分功能的实现方法
+---
 
-###1.简单的示例代码实现
+### RabbitMQ 功能实现
+>引入php-amqplib类库,类库地址为[https://github.com/php-amqplib/php-amqplib](https://github.com/php-amqplib/php-amqplib)
 
-![](/assets/QQ截图20161212205751.png)
+### 简单的示例代码实现
+
+![](http://ooqid2far.bkt.clouddn.com/myblog/rabbitmq%E5%8A%9F%E8%83%BD.png)
 
 + 生产者(发送消息者) 
 ```php
@@ -63,7 +72,7 @@ class Callback extends Model{
 }
 ```
 
-###2.队列及消息的持久化设置
+### 队列及消息的持久化设置
 
 + 首先设置队列的持久化
 
@@ -83,7 +92,7 @@ $msg = new AMQPMessage($data,
 
 > 虽然设置了队列和消息的持久化,但RabbitMQ可能有时只是存入缓存不是磁盘中,如果需要更强力的保障,请使用[ publisher confirms](https://www.rabbitmq.com/confirms.html)
 
-###3.合理调度实现
+### 合理调度实现
 
 如果你想让工人处理并确认了当前任务后再接受新任务,需在**消耗信息**时设置
 ```php
@@ -92,7 +101,7 @@ $channel->basic_qos(null, 1, null); //参数为1 表示工人当前任务最多1
 $channel->basic_consume('hello', '', false, false, false, false);
 ```
 
-###4.消息确认机制
+### 消息确认机制
 ```php
 $channel->basic_consume('hello', '', false, false, false, false,array($callback_model,'getQueueInfo'));
 //注意:$channel->basic_consume 的第四个参数为true时(即 no ack),则为关闭消息确认
