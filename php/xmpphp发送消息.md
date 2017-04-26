@@ -1,5 +1,5 @@
 ---
-title: xmpphp
+title: xmpphp发送消息
 date: 2017/1/14 20:46:25
 categories: php
 tags: 
