@@ -31,7 +31,7 @@
   * node.js
     * [node.js常用命令](web/node.js/Node.js-常用命令.md)
   * webpack
-    * [webpack-常用命令](web/webpack/webpack-常用命令.md)
+    * [webpack常用命令](web/webpack/webpack-常用命令.md)
   * vue
     * [vue-cli](web/vue/vue-cli.md)
   * javascript
