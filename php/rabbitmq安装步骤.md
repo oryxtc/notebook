@@ -18,7 +18,7 @@ description:  详细介绍了rabbitmq的安装步骤
 ![](/assets/QQ截图20161212203116.png)
 
 4.访问RabbitMQ管理后台 [http://localhost:15672/](http://localhost:15672),默认用户名`guset`,默认密码`guset`
-![](http://ooqid2far.bkt.clouddn.com/rabbitmq%E5%AE%89%E8%A3%85.png)
+![](http://ooqid2far.bkt.clouddn.com/myblog/rabbitmq%E5%AE%89%E8%A3%85.png)
 
 
 ### Windows环境下 php5.6版本安装RabbitMQ扩展
@@ -26,7 +26,7 @@ description:  详细介绍了rabbitmq的安装步骤
 >php的amqp扩展下载地址：[http://pecl.php.net/package/amqp](http://pecl.php.net/package/amqp)
 
 1.解压后如下所示
-![](/assets/QQ截图20161212204455.png)
+![](http://ooqid2far.bkt.clouddn.com/myblog/rabbitmq%E5%AE%89%E8%A3%85%20-%E6%89%A9%E5%B1%95.png)
 
 2.复制php_amqp.dll到php/ext    如我的放到 D:\xampp-php5.6\php\ext 目录下
 
@@ -43,7 +43,7 @@ extension=php_amqp.dll
 ```
 LoadFile  "rabbitmq.1.dll文件路径"
 ```
-7.重启apache   phpinfo显示如下![](http://ooqid2far.bkt.clouddn.com/rabbitmq%E5%AE%89%E8%A3%85-%E9%85%8D%E7%BD%AE.png)
+7.重启apache   phpinfo显示如下![](http://ooqid2far.bkt.clouddn.com/myblog/rabbitmq%E5%AE%89%E8%A3%85-%E9%85%8D%E7%BD%AE.png)
 
 
 
