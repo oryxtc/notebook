@@ -1,23 +1,25 @@
 ---
-title: composer常用命令
+title: openfire的api接口控制
 date: 2017/1/14 20:46:25
 categories: php
-tags: composer
-description: 归纳总结了一些composer常用命令
+tags: openfire
+description: 通过restapi插件,实现代码控制openfire的部分功能
 ---
 
-1.首先确保你的openfire已安装restapi,在openfire后台管理->插件管理中下载并启用
+###　首先确保你的openfire已安装restapi
+在openfire后台管理->插件管理中下载并启用`restapi`
+部署以后默认是没有开启的，你需要到后台开启并且设置验证码(即为secret)，为了确保安全你也许还要设置一个安全的ip
 
-2.部署以后默认是没有开启的，你需要到后台开启并且设置验证码(即为secret)，为了确保安全你也许还要设置一个安全的ip
 
-
-3.引入`php-openfire-restapi`的代码,在`github`上的托管地址:[https://github.com/gidkom/php-openfire-restapi](https://github.com/gidkom/php-openfire-restapi)
+### 引入`php-openfire-restapi`的代码
+>在`github`上的托管地址:[https://github.com/gidkom/php-openfire-restapi](https://github.com/gidkom/php-openfire-restapi)
 
 使用`composer`方式引入类
-
+```bash
     composer require "gidkom/php-openfire-restapi:dev-master"
+```
 
-4.可以在`Gidkom\OpenFireRestApi\OpenFireRestApi`类中配置默认属性
+### 可以在`Gidkom\OpenFireRestApi\OpenFireRestApi`类中配置默认属性
 ```php
 class OpenFireRestApi
 {
@@ -32,7 +34,8 @@ class OpenFireRestApi
     /////////
 }
 ```
-5.或者实例化对象后,重新定义属性
+
+### 或者实例化对象后,重新定义属性
 ```php
 include "vendor/autoload.php";
 $api = new Gidkom\OpenFireRestApi\OpenFireRestApi;
