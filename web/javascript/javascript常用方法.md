@@ -8,12 +8,12 @@ tags: javascript
 description: json字符串转换成对象&删除数组中重复元素&去掉字符串中转义和特殊字符...
 ---
 
-### 1.json字符串转换成对象
-```
+### json字符串转换成对象
+```javascript
 var object=$.parseJSON(data)
 ```
 
-### 2.删除数组中重复元素
+### 删除数组中重复元素
 ```javascript
 <script type="text/javascript">
 var  a=[4,6,7,6,44,64,4];
@@ -35,7 +35,7 @@ console.debug(res)
 </script>
 ```
 
-### 3.去掉字符串中转义和特殊字符
+### 去掉字符串中转义和特殊字符
 ```javascript
 var excludeSpecial=function(str) {
 	// 去掉转义字符
@@ -46,7 +46,7 @@ var excludeSpecial=function(str) {
 };
 ```
 
-### 4.手机类型判断
+### 手机类型判断
 ```javascript
 var BrowserInfo = {
     userAgent: navigator.userAgent.toLowerCase()
@@ -71,7 +71,7 @@ function strLength(str) {
 }
 ```
 
-### 6.获取url中的参数
+### 获取url中的参数
 ```javascript
 function GetQueryStringRegExp(name,url) {
     var reg = new RegExp("(^|\\?|&)" + name + "=([^&]*)(\\s|&|$)", "i");
@@ -79,7 +79,7 @@ function GetQueryStringRegExp(name,url) {
 }
 ```
 
-### 7.JS判断两个日期大小 适合 2012-09-09 与2012-9-9 两种格式的对比
+### JS判断两个日期大小 适合 2012-09-09 与2012-9-9 两种格式的对比
 ```javascript
 //得到日期值并转化成日期格式，replace(/\-/g, "\/")是根据验证表达式把日期转化成长日期格式，这样再进行判断就好判断了
 function ValidateDate() {
@@ -96,7 +96,7 @@ function ValidateDate() {
 }
 ```
 
-### 8.回车提交
+### 回车提交
 ```javascript
 $("id").onkeypress = function (event) {
     event = (event) ? event : ((window.event) ? window.event : "")
