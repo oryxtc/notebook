@@ -5,7 +5,7 @@ categories: docker
 description: 安装Docker for Windows所需注意准备情况
 ---
 
-> docker for Windows 下载地址为: [https://docs.docker.com/docker-for-windows/install/](https://docs.docker.com/docker-for-windows/install/)
+> docker for Windows 下载地址为: [](http://ooqid2far.bkt.clouddn.com/myblog/docker-for-windows.png)
 
 ### 首先请确保你系统为win10 企业或者教育版,并开启Hyper-V
 ![](http://ooqid2far.bkt.clouddn.com/myblog/docker%20for%20Windows%281%29.png!ratio.1000)
