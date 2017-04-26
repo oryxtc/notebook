@@ -1,4 +1,12 @@
-# curl get连接方法
+---
+title: curl连接实现
+date: 2017/1/14 20:46:25
+categories: php
+tags: curl
+description: curl get与poset连接方法的实现
+---
+
+### curl get连接方法
 ```php
 //准备数据
 $url = 'http://xxxx';
@@ -16,7 +24,7 @@ $result = curl_exec($ch);
 curl_close($ch);
 ```
 
-#curl post连接方法
+### curl post连接方法
 ```php
 //准备数据
 $url  = 'http://xxxx';
