@@ -1,5 +1,14 @@
-##RabbitMQ 功能实现
-引入php-amqplib类库,类库地址为[https://github.com/php-amqplib/php-amqplib](https://github.com/php-amqplib/php-amqplib)
+---
+title: php代码块
+date: 2017/1/14 20:46:25
+categories: php
+tags: 
+- php
+description:  货号单 0000001的生成方法&通过goole Api以经纬度获取城市名...
+---
+
+### RabbitMQ 功能实现
+>引入php-amqplib类库,类库地址为[https://github.com/php-amqplib/php-amqplib](https://github.com/php-amqplib/php-amqplib)
 
 ###1.简单的示例代码实现
 
