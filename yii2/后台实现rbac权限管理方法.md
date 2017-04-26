@@ -16,7 +16,6 @@ composer require mdmsoft/yii2-admin "~2.0"
 ```
 
 ### 在`common/config/main-local.php`中配置
-
 ```php
 'components' => [
 	'db' => [
@@ -40,6 +39,7 @@ composer require mdmsoft/yii2-admin "~2.0"
 ```bash
 yii migrate --migrationPath=@mdm/admin/migrations yii migrate --migrationPath=@yii/rbac/migrations
 ```
+
 ### 配置模块
 ```php
 'modules' => [
@@ -50,6 +50,7 @@ yii migrate --migrationPath=@mdm/admin/migrations yii migrate --migrationPath=@y
 	],
 ]
 ```
+
 ### 如果数据库管理员表名需要重命名
 例如我重命名表名为`administrator`,还需要修改`mdm\admin\components\Configs.php`
 
