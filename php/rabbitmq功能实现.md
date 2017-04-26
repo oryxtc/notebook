@@ -12,7 +12,7 @@ description:  rabbitmq部分功能的实现方法
 
 ### 简单的示例代码实现
 
-![](/assets/QQ截图20161212205751.png)
+![](http://ooqid2far.bkt.clouddn.com/myblog/rabbitmq%E5%8A%9F%E8%83%BD.png)
 
 + 生产者(发送消息者) 
 ```php
