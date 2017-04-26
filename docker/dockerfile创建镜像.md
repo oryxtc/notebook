@@ -1,9 +1,9 @@
 ---
-title: yii2前后台使用同一域名
+title: dockerfile创建镜像
 date: 2017/1/14 20:46:25
-categories: apche
-tags: yii2
-description: 由于`init()`函数与`_construct()`与`behaviors()`函数因为功能不一样，代码实现上也有细微不同.
+categories: docker
+tags: dockerfile
+description: 对于创建某一个镜像包,推荐使用dockerfile方式,本文示例了php-5.6-fpm镜像创建过程
 ---
 
 ### 在目录中新建`Dockerfile`文件
