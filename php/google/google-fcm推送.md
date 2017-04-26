@@ -10,8 +10,7 @@ tags:
 description: 使用google-fcm发送推送消息
 ---
 
-#### 通过fcm实现消息推送
-
+### 通过fcm实现消息推送
 ```php
 public static function sendMessages() {
     try {
