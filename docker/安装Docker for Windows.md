@@ -1,8 +1,7 @@
 ---
 title: 安装Docker for Windows
 date: 2017/1/14 20:46:25
-categories: apche
-tags: yii2
+categories: docker
 description: 安装Docker for Windows所需注意准备情况
 ---
 
