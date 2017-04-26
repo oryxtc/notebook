@@ -1,3 +1,12 @@
+---
+title: rabbitmq安装步骤
+date: 2017/1/14 20:46:25
+categories: php
+tags: 
+- rabbitmq
+description:  详细介绍了rabbitmq的安装步骤
+---
+
 ### Windows 环境下安装RabbitMQ服务
 1.因为RabbitMQ是由erlang语言实现的，所以先要安装erlang环境
 erlang 下载安装 [http://www.erlang.org/download.html](http://www.erlang.org/download.html)
