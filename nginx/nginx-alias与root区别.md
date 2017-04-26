@@ -24,9 +24,9 @@ location /img/ {
 
 ### 图片胜过千言万语
 **for alias**
-![nginx-alias](http://ooqid2far.bkt.clouddn.com/myblog/nginx-alias.png!ratio.1000)
+![nginx-alias](http://ooqid2far.bkt.clouddn.com/myblog/nginx-alias.png)
 
 **for root:**
-![nginx-root](http://ooqid2far.bkt.clouddn.com/myblog/nginx-root.png!ratio.1000)
+![nginx-root](http://ooqid2far.bkt.clouddn.com/myblog/nginx-root.png)
 
 
