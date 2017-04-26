@@ -1,7 +1,12 @@
-###nginx 同一个IP上配置多个HTTPS主机
+---
+title: alias与root的区别
+date: 2017/1/14 20:46:25
+categories: nginx
+tags: nginx
+description: 详解nginx.conf中alias与root的区别
+---
 
-如果在同一个IP上配置多个HTTPS主机，会出现一个很普遍的问题
-
+### 如果在同一个IP上配置多个HTTPS主机，会出现一个很普遍的问题
 ```nginx
 server {
     listen          443;
@@ -40,7 +45,7 @@ server {
 }
 ```
 
-那么，在同一个IP上，如何配置多个HTTPS主机呢？
+### 在同一个IP上，如何配置多个HTTPS主机呢？
 nginx支持TLS协议的SNI扩展（Server Name Indication，简单地说这个扩展使得在同一个IP上可以以不同的证书serv不同的域名）。不过，SNI扩展还必须有客户端的支持，另外本地的OpenSSL必须支持它。
 如果启用了SSL支持，nginx便会自动识别OpenSSL并启用SNI。是否启用SNI支持，是在编译时由当时的 ssl.h 决定的（SSL_CTRL_SET_TLSEXT_HOSTNAME），如果编译时使用的OpenSSL库支持SNI，则目标系统的OpenSSL库只要支持它就可以正常使用SNI了。
 nginx在默认情况下是TLS SNI support disabled。
