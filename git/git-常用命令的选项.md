@@ -1,3 +1,12 @@
+---
+title: git常用命令选项
+date: 2017/1/14 20:46:25
+categories: git
+tags: git
+description: 详解了一些git常用命令的选项的说明
+---
+
+### git log
 |命令|选项|说明|
 |:--|:--|:--|
 |**git log**|-p|按补丁格式显示每个更新之间的差异。|
