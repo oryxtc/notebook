@@ -1,9 +1,9 @@
 ---
-title: alias与root的区别
+title: nginx同一IP配置多个https主机
 date: 2017/1/14 20:46:25
 categories: nginx
-tags: nginx
-description: 详解nginx.conf中alias与root的区别
+tags: nginx https
+description: 如果在同一个IP上配置多个HTTPS主机，会出现一个很普遍的问题,不论浏览器请求哪个主机，都只会收到默认主机www.example.com的证书。这是由SSL协议本身的行为引起的——先建立SSL连接，再发送HTTP请求，所以nginx建立SSL连接时不知道所请求主机的名字，因此，它只会返回默认主机的证书。
 ---
 
 ### 如果在同一个IP上配置多个HTTPS主机，会出现一个很普遍的问题
