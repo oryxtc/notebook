@@ -3,7 +3,7 @@ title: 安装Docker for Windows
 date: 2017/1/14 20:46:25
 categories: apche
 tags: yii2
-description: 由于`init()`函数与`_construct()`与`behaviors()`函数因为功能不一样，代码实现上也有细微不同.
+description: 安装Docker for Windows所需注意准备情况
 ---
 
 ### 安装Docker for Windows
