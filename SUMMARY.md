@@ -48,7 +48,7 @@
   * [mysql-常用命令](mysql/mysql-常用命令.md)
 * git
   * [git常用命令](git/git常用命令.md)
-  * [git常用命令的选项](git/git常用命令的选项.md)
+  * [git常用命令的选项](git/git常用命令选项.md)
 * [第三方储备](third_party_reserves/第三方储备.md)
 * docker
   * [docker安装-Windows版](docker/docker安装-windows版.md)
