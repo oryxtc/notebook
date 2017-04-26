@@ -2,24 +2,24 @@
 
 * [Introduction](README.md)
 * yii2
-  * [yii2-代码块](yii2/yii2-代码块.md)
+  * [yii2-代码块](yii2/yii2代码块.md)
   * [开源后台模板AdminLTE](yii2/使用开源后台模板adminlte.md)
   * [RBAC控制与管理的实现](yii2/后台实现rbac权限管理方法.md)
   * [分页小部件的实现](yii2/分页小部件的实现.md)
   * [yii2-user扩展实现用户登录注册](yii2/yii2-user扩展实现用户登录注册.md)
-  * [关于如何在单独的action中关闭Csrf验证](yii2/关于如何在单独的action中关闭csrf验证--技术分享-.md)
-  * [init\(\),\_construct\(\),behaviors\(\) 编码区别](yii2/init-construct-behaviors-编码区别.md)
+  * [关于如何在单独的action中关闭Csrf验证](yii2/在单独的action中关闭csrf验证.md)
+  * [init\(\),\_construct\(\),behaviors\(\) 编码区别](yii2/init(),_construct(),behaviors()编码区别.md)
 * thinkphp
   * [thinkphp-空操作 空控制器处理](thinkphp/thinkphp-空操作-空控制器处理.md)
 * php
-  * [php-代码块](php/php-代码块.md)
+  * [php-代码块](php/php代码块.md)
   * [umeditor图片上传至七牛](php/umeditor图片上传至七牛.md)
   * [正则表达式-整理](php/正则表达式-语法.md)
   * [RabitMQ功能实现](php/rabbitmq功能实现.md)
   * [RabitMQ安装方法](php/rabbitmq安装方法.md)
   * [Redis扩展的安装](php/redis扩展的安装.md)
   * [curl连接实现](php/curl连接实现.md)
-  * [composer-命令详解](php/composer-命令详解.md)
+  * [composer-命令详解](php/composer常用命令.md)
   * apple
     * [apple-支付订单查询](php/apple/苹果内购订单验证.md)
   * facebook
