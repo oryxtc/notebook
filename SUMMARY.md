@@ -19,21 +19,21 @@
   * [Redis扩展的安装](php/redis扩展的安装.md)
   * [curl连接实现](php/curl连接实现.md)
   * [composer-命令详解](php/composer-命令详解.md)
-  * [apple](php/apple/apple.md)
+  * apple
     * [apple-支付订单查询](php/apple/苹果内购订单验证.md)
-  * [facebook](php/facebook/facebook.md)
+  * facebook
     * [facebook-检索用户个人主页](php/facebook/facebook-检索用户个人主页.md)
-  * [google](php/google/google.md)
+  * google
     * [google-fcm实现推送](php/google/google-fcm推送.md)
     * [google-支付订单查询](php/google/google-支付订单查询.md)
 * web
-  * [node.js](web/node.js/node.js.md)
+  * node.js
     * [Node.js-常用命令](web/node.js/Node.js-常用命令.md)
-  * [webpack](web/webpack/webpack.md)
+  * webpack
     * [webpack-常用命令](web/webpack/webpack-常用命令.md)
-  * [vue](web/vue/vue.md)
+  * vue
     * [vue-cli](web/vue/vue-cli.md)
-  * [javascript](web/javascript/javascript.md)
+  * javascript
     * [javascript-常用方法](web/javascript/javascript-常用方法.md)
 * apache
   * [http-vhosts配置详解](apche/http-vhosts配置详解.md)
