@@ -48,7 +48,7 @@
   * [日志定时分割实现](linux/日志定时分割实现.md)
 * [mysql](mysql/mysql.md)
   * [mysql-常用命令](mysql/mysql-常用命令.md)
-* git
+* [git](git.md)
   * [git-常用命令](git/git-常用命令.md)
   * [git-常用命令的选项](git/git-常用命令的选项.md)
 * [第三方储备](third_party_reserves/第三方储备.md)
