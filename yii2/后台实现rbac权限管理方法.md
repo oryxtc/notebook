@@ -6,6 +6,7 @@ tags:
 - RBAC
 description: 用户或者管理员的权限控制属于网站不可或缺的环节,当对权限的业务需求不复杂时,为避免重复造轮子,可直接引用第三方库,本文引入yii2-admin实现RBAC的权利控制与管理
 ---
+
 ### 安装`mdmsoft/yii2-admin`
 >在`github`上的托管地址为:[https://github.com/mdmsoft/yii2-admin](https://github.com/mdmsoft/yii2-admin)
 
