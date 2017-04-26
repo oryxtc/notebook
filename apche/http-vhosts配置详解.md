@@ -1,3 +1,12 @@
+---
+title: http-vhosts配置详解
+date: 2017/1/14 20:46:25
+categories: apche
+tags: http-vhosts
+description: http-vhosets各项参数详解
+---
+
+### 配置详解
 ```
 <Directory "E:/mywork">
     Options Indexes FollowSymLinks   //允许访问目录
