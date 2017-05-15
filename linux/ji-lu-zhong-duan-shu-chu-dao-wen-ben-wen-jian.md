@@ -1,0 +1,32 @@
+---
+title: 记录终端输出到文本文件
+date: {{date}}
+categories: linux
+description: 有时候需要保存终端输出,用于调试.
+---
+
+### 1.用`>`把输出转向
+```bash
+$ ls > ls.txt
+```
+
+### 2.用`tee`命令
+```bash
+$ ls | tee ls.txt      #将会在终端上显示ls命令的执行结果，并把执行结果输出到ls.txt 文件中
+$ ls | tee -a ls.txt   # 保留ls.txt文件中原来的内容，并把ls命令的执行结果添加到ls.txt文件的后面
+```
+
+### 3.用`script`命令记录多个输出
+```bash
+$ script
+# $ script -a recording.txt  ＃终端的输出内容被记录到 recording.txt这个文件中
+Script. started, file is typescript
+$ ls
+# ...内容省略
+$ exit
+exit
+Script. done, file is typescript
+$cat typescript # 默认保存在当前文件夹 名为:typescript
+```
+
+
