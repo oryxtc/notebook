@@ -45,6 +45,7 @@
 * linux
   * [日志定时分割实现](linux/日志定时分割实现.md)
   * [记录终端输出到文本文件](linux/记录终端输出到文本文件.md)
+  * [linux常用命令](linux/linuxchang-yong-ming-ling.md)
 * mysql
   * [mysql-常用命令](mysql/mysql常用命令.md)
 * git
@@ -55,6 +56,4 @@
   * [docker安装-Windows版](docker/安装Docker for Windows.md)
   * [Dockerfile方式创建php镜像](docker/dockerfile创建镜像.md)
   * [docker-compose方式创建 nginx+php](docker/docker-compose方式创建nginx+php.md)
-
-
 
