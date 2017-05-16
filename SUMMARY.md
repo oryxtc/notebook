@@ -44,7 +44,7 @@
   * [nginx-同一IP上配置多个HTTPS主机](nginx/nginx-同一IP配置多个https主机.md)
 * linux
   * [日志定时分割实现](linux/日志定时分割实现.md)
-  * [记录终端输出到文本文件](linux/ji-lu-zhong-duan-shu-chu-dao-wen-ben-wen-jian.md)
+  * [记录终端输出到文本文件](linux/记录终端输出到文本文件.md)
 * mysql
   * [mysql-常用命令](mysql/mysql常用命令.md)
 * git
