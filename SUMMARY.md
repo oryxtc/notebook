@@ -45,7 +45,7 @@
 * linux
   * [日志定时分割实现](linux/日志定时分割实现.md)
   * [记录终端输出到文本文件](linux/记录终端输出到文本文件.md)
-  * [linux常用命令](linux/linuxchang-yong-ming-ling.md)
+  * [linux常用命令](linux/linux常用命令.md)
 * mysql
   * [mysql-常用命令](mysql/mysql常用命令.md)
 * git
