@@ -34,7 +34,7 @@
     * [webpack常用命令](web/webpack/webpack-常用命令.md)
   * javascript
     * [javascript常用方法](web/javascript/javascript常用方法.md)
-    * [javascript第三方库](web/javascript/javascriptdi-san-fang-ku.md)
+    * [javascript第三方库](web/javascript/javascript第三方库.md)
 * apache
   * [http-vhosts配置详解](apche/http-vhosts配置详解.md)
   * [yii2-前后台使用同一域名](apche/yii2-前后台使用同一域名.md)
