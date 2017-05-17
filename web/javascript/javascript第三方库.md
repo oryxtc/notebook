@@ -1,6 +1,6 @@
 ---
 title: javascript第三方库
-date: '{{date}}'
+date: 2017/1/14 20:46:25
 categories:
 - web
 - javascript
