@@ -19,3 +19,19 @@ UPDATE ulala_room_list AS a,
 SET a.sort = IF(is_star=1,99,0)
 WHERE a.id=b.id
 ```
+
+### 连表查询通过`,`分割的对应条件 如(options_id = 1402,1404)
+```sql
+SELECT
+	*
+FROM
+	{table_name_1} bol
+LEFT JOIN {table_name_2} bmo1 ON (
+	bmo1.options_id = SUBSTRING_INDEX(bol.options_id, ',', 1)
+)
+LEFT JOIN {table_name_2} bmo2 ON (
+	bmo2.options_id = SUBSTRING_INDEX(bol.options_id, ',', - 1)
+)
+WHERE
+	{condition}
+```
