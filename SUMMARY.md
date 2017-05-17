@@ -34,6 +34,7 @@
     * [webpack常用命令](web/webpack/webpack-常用命令.md)
   * javascript
     * [javascript常用方法](web/javascript/javascript常用方法.md)
+    * [javascript第三方库](web/javascript/javascriptdi-san-fang-ku.md)
 * apache
   * [http-vhosts配置详解](apche/http-vhosts配置详解.md)
   * [yii2-前后台使用同一域名](apche/yii2-前后台使用同一域名.md)
@@ -52,7 +53,7 @@
   * [git常用命令](git/git常用命令.md)
   * [git常用命令的选项](git/git常用命令选项.md)
 * [第三方储备](third_party_reserves/第三方储备.md)
-* docker
+* [docker](docker.md)
   * [docker安装-Windows版](docker/安装Docker for Windows.md)
   * [Dockerfile方式创建php镜像](docker/dockerfile创建镜像.md)
   * [docker-compose方式创建 nginx+php](docker/docker-compose方式创建nginx+php.md)
