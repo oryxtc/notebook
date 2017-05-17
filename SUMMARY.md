@@ -48,7 +48,7 @@
   * [记录终端输出到文本文件](linux/记录终端输出到文本文件.md)
   * [linux常用命令](linux/linux常用命令.md)
 * mysql
-  * [mysql常用查询](mysql/mysql常用命令.md)
+  * [mysql常用查询](mysql/mysql常用查询.md)
 * git
   * [git常用命令](git/git常用命令.md)
   * [git常用命令的选项](git/git常用命令选项.md)
