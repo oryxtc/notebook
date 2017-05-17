@@ -95,3 +95,8 @@ description: 持续储备javascript第三方库
 - **Flip Countdown**
 
     >官网链接:[https://extensions.joomla.org/extension/flip-countdown/](https://extensions.joomla.org/extension/flip-countdown/)
+    
+### UI小部件
+- **jqwidgets**
+
+    >官网链接:[http://www.jqwidgets.com/](http://www.jqwidgets.com/)
