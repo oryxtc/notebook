@@ -1,6 +1,6 @@
 ---
 title: linux常用命令
-date: '{{date}}'
+date: 2017/1/12 20:46:25
 categories: linux
 description: '归纳总结了一些linux常用命令'
 ---
