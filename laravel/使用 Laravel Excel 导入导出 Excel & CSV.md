@@ -39,7 +39,7 @@ php artisan vendor:publish --provider=Maatwebsite\Excel\ExcelServiceProvider
 ```php
 Excel::load('file.xls', function($reader) {
 
-    //禁用第一行作为属性
+    //禁用第一行作为标题属性
     $reader->noHeading();
     
     // 获取数据的集合
