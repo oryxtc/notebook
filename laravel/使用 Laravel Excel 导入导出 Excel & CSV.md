@@ -59,5 +59,35 @@ Excel::load('file.xls', function($reader) {
     
     // 打印数据
     $reader->dump();
+    
+    // 遍历工作表
+    $reader->each(function($sheet) {
+    
+        // 遍历行
+        $sheet->each(function($row) {
+        
+        });
+    });
 });
+```
+
+##### 选择页和列
+```php
+// 选择指定页
+Excel::selectSheets('sheet1')->load();
+
+// 选择多页
+Excel::selectSheets('sheet1', 'sheet2')->load();
+
+// 选择第一页
+Excel::selectSheetsByIndex(0)->load();
+
+// 选择第一和第二页
+Excel::selectSheetsByIndex(0, 1)->load();
+
+// 获取指定的列
+$reader->select(array('firstname', 'lastname'))->get();
+
+// 获取指定的列
+$reader->get(array('firstname', 'lastname'));
 ```
