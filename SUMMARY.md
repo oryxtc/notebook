@@ -53,8 +53,9 @@
   * [git常用命令](git/git常用命令.md)
   * [git常用命令的选项](git/git常用命令选项.md)
 * [第三方储备](third_party_reserves/第三方储备.md)
-* docker
+* [docker](docker.md)
   * [docker安装-Windows版](docker/安装Docker for Windows.md)
+  * [docker安装-Debian](docker/dockeran-88c5-debian.md)
   * [Dockerfile方式创建php镜像](docker/dockerfile创建镜像.md)
   * [docker-compose方式创建 nginx+php](docker/docker-compose方式创建nginx+php.md)
 * laravel
