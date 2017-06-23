@@ -60,5 +60,5 @@
   * [docker-compose方式创建 nginx+php](docker/docker-compose方式创建nginx+php.md)
 * laravel
   * [使用 Laravel Excel 导入导出 Excel & CSV](laravel/使用 Laravel Excel 导入导出 Excel & CSV.md)
-  * [laravel+voyager 实现后台管理](laravel/laravel+voyager-shi-xian-hou-tai-guan-li.md)
+  * [laravel+voyager 实现后台管理](laravel/laravel+voyager 实现后台管理.md)
 
