@@ -15,7 +15,7 @@ description:  详细介绍了rabbitmq的安装步骤
 >下载地址 [http://www.rabbitmq.com/install-windows.html](http://www.rabbitmq.com/install-windows.html)
 
 3.安装成功后,菜单目录下有RabbitMQ目录的链接
-![](/assets/QQ截图20161212203116.png)
+![](http://ooqid2far.bkt.clouddn.com/myblog/rabbitmq%E5%AE%89%E8%A3%85-%E7%9B%AE%E5%BD%95.png)
 
 4.访问RabbitMQ管理后台 [http://localhost:15672/](http://localhost:15672),默认用户名`guset`,默认密码`guset`
 ![](http://ooqid2far.bkt.clouddn.com/myblog/rabbitmq%E5%AE%89%E8%A3%85.png)
