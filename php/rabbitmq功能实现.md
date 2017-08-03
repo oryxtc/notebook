@@ -21,7 +21,7 @@ description:  rabbitmq部分功能的实现方法
         $connection = new AMQPStreamConnection('127.0.0.1', 5672, 'guest', 'guest');
         //创建一个连接通道
         $channel = $connection->channel();
-        //声明队列,如果该队列不存在会创建
+        //声明队列,如果该队列不存在会创建
         $channel->queue_declare('hello', false, false, false, false);
         //创建消息实例
         $msg = new AMQPMessage('Hello World1!');
@@ -43,7 +43,7 @@ description:  rabbitmq部分功能的实现方法
         $channel = $connection->channel();
         //声明队列,如果该队列不存在会创建
         $channel->queue_declare('hello', false, false, false, false);
-        //创建一个实例(这里用于回调)
+        //创建一个实例(这里用于回调)
         $callback_model=new Callback();
         //通过通道消费队列中的信息,并执行回调(这里为array($callback_model,'getQueueInfo'))
         $channel->basic_consume('hello', '', false, false, false, false,array($callback_model,'getQueueInfo'));
