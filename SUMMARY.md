@@ -14,7 +14,7 @@
 * php
   * [php-代码块](php/php代码块.md)
   * [umeditor图片上传至七牛](php/umeditor图片上传至七牛.md)
-  * [正则表达式-整理](php/正则表达式-语法.md)
+  * [正则表达式整理](php/正则表达式整理.md)
   * [RabitMQ功能实现](php/rabbitmq功能实现.md)
   * [RabitMQ安装方法](php/rabbitmq安装方法.md)
   * [Redis扩展的安装](php/redis扩展的安装.md)
