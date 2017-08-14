@@ -11,8 +11,8 @@
   * \[init\(\),\_construct\(\),behaviors\(\) 编码区别\]\(yii2/init\(\),\_construct\(\),behaviors\(\)编码区别.md\)
 * thinkphp
   * [thinkphp-空操作 空控制器处理](thinkphp/thinkphp-空操作-空控制器处理.md)
-* php
-  * [php-代码块](php/php代码块.md)
+* [php](php.md)
+  * [php代码块](php/php代码块.md)
   * [umeditor图片上传至七牛](php/umeditor图片上传至七牛.md)
   * [正则表达式整理](php/正则表达式整理.md)
   * [RabitMQ功能实现](php/rabbitmq功能实现.md)
@@ -24,9 +24,10 @@
     * [apple-支付订单查询](php/apple/苹果内购订单验证.md)
   * facebook
     * [facebook-检索用户个人主页](php/facebook/facebook-检索用户个人主页.md)
-  * google
+  * [google](php/google.md)
     * [google-fcm实现推送](php/google/google-fcm推送.md)
     * [google-支付订单查询](php/google/google-支付订单查询.md)
+  * [php版本升级详情](php/php版本升级详情.md)
 * web
   * node.js
     * [node.js常用命令](web/node.js/Node.js-常用命令.md)
