@@ -13,6 +13,7 @@
   * [thinkphp-空操作 空控制器处理](thinkphp/thinkphp-空操作-空控制器处理.md)
 * [php](php.md)
   * [php代码块](php/php代码块.md)
+  * [php版本升级详情](php/php版本升级详情.md)
   * [umeditor图片上传至七牛](php/umeditor图片上传至七牛.md)
   * [正则表达式整理](php/正则表达式整理.md)
   * [RabitMQ功能实现](php/rabbitmq功能实现.md)
@@ -24,9 +25,6 @@
     * [apple-支付订单查询](php/apple/苹果内购订单验证.md)
   * facebook
     * [facebook-检索用户个人主页](php/facebook/facebook-检索用户个人主页.md)
-  * [google](php/google.md)
-    * [google-fcm实现推送](php/google/google-fcm推送.md)
-    * [google-支付订单查询](php/google/google-支付订单查询.md)
   * [php版本升级详情](php/php版本升级详情.md)
 * web
   * node.js
