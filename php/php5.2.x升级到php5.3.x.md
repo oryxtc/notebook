@@ -156,5 +156,63 @@ description: PHP 5.3.x 的大多数改进对现有代码没有影响。需要注
 
 - `strstr()` 和 `stristr()` - 新增 before_needle 参数.
 
+##### json:
 
+- `json_encode()` - 新增 options 参数.
+
+- `json_decode()` - 新增 depth 参数.
+
+##### 流(Streams):
+
+- `stream_select()`, `stream_set_blocking()`, `stream_set_timeout()`, 和 `stream_set_write_buffer()` 使用用户空间流包裹器.
+
+##### sybase_ct:
+
+- `sybase_connect()` - 新增 new 参数.
+
+### PHP 5.3.x 新函数
+
+##### PHP 核心
+
+- `array_replace()` - 将一个数组的元素用另外一个数组的元素进行替换.
+
+- `array_replace_recursive()` - 将一个数组的元素用一组传递进来的数组进行递归替换.
+
+- `class_alias()` - 为用户定义的类创建一个别名.
+
+- `forward_static_call()` - 从一个方法环境调用一个用户函数.
+
+- `forward_static_call_array()` - 从一个方法环境调用一个用户函数, 使用数组中的元素作为参数.
+
+- `gc_collect_cycles()` - 强制收集任何存在的废物循环.
+
+- `gc_disable()` - 撤销循环引用收集器.
+
+- `gc_enable()` - 激活循环引用收集器.
+
+- `gc_enabled()` - 返回循环引用收集器的状态.
+
+- `get_called_class()` - 返回调用的静态方法所在的类的名称.
+
+- `gethostname()` - 返回本地机器的当前主机名.
+
+- `header_remove()` - 在使用 `header()` 函数之前移除 HTTP Header.
+
+- `lcfirst()` - 蒋某一字符串第一个字符转化为小写.
+
+- `parse_ini_string()` - 解析配置字符串.
+
+- `quoted_printable_encode()` - 转换 8 位的字符串为引用的可打印字符串.
+
+- `str_getcsv()` - 将 CSV 字符串解析为数组.
+
+- `stream_context_set_default()` - 设置默认的流环境.
+
+- `stream_supports_lock()` - 如果流支持锁定则返回 TRUE.
+
+- `stream_context_get_params()` - 获取一个流环境的参数.
+
+- `streamWrapper::stream_cast()` - 获取底层的流资源.
+
+- `streamWrapper::stream_set_option()` - 更改流选项
 
