@@ -13,7 +13,7 @@
   * [thinkphp-空操作 空控制器处理](thinkphp/thinkphp-空操作-空控制器处理.md)
 * [php](php.md)
   * [php代码块](php/php代码块.md)
-  * [php版本升级详情](php/php版本升级详情.md)
+  * [php5.2.x升级到php5.3.x](php/php5.2.x升级到php5.3.x.md)
   * [umeditor图片上传至七牛](php/umeditor图片上传至七牛.md)
   * [正则表达式整理](php/正则表达式整理.md)
   * [RabitMQ功能实现](php/rabbitmq功能实现.md)
