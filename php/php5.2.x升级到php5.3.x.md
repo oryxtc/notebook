@@ -130,5 +130,31 @@ description: PHP 5.3.x 的大多数改进对现有代码没有影响。需要注
 
 - `mktime()` 的 is_dst 参数. 使用新的时区处理函数替代.
 
+### PHP 5.3.x 保留的功能
+
+- `is_a()` 函数被保留. 它不再抛出 E_STRICT 错误.
+
+### 新参数
+
+##### PHP核心
+
+- `clearstatcache()` - 新增 clear_realpath_cache 和 filename 参数.
+
+- `copy()` - 新增流环境参数 context.
+
+- `fgetcsv()` - 新增 escape 参数.
+
+- `ini_get_all()` - 新增 details 参数.
+
+- `nl2br()` - 新增 is_xhtml 参数.
+
+- parse_ini_file()` - 新增 scanner_mode 参数.
+
+- `round()` - 新增 mode 参数.
+
+- `stream_context_create()` - 新增 params 参数.
+
+- `strstr()` 和 `stristr()` - 新增 before_needle 参数.
+
 
 
