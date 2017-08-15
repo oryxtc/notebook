@@ -297,3 +297,141 @@ description: PHP 5.3.x 的大多数改进对现有代码没有影响。需要注
 - `expm1()`
 
 - `log1p()`
+
+### 新的流包装器
+
+- glob://
+
+- phar://
+
+### 新的流过滤器
+
+- `dechunk` (反转 HTTP 块编码)
+
+- `bz2.decompress` 过滤器支持连续操作.
+
+### 新增的类常量
+
+##### PDO_FIREBIRD:
+
+- `PDO::FB_ATTR_DATE_FORMAT` - 为日期设置格式.
+
+- `PDO::FB_ATTR_TIME_FORMAT` - 为时间设置格式.
+
+- `PDO::FB_ATTR_TIMESTAMP_FORMAT` - 为时间戳设置格式.
+
+### 新增的方法
+
+##### 日期/时间:
+
+- `DateTime::add()` - 向一个 DateTime 对象加上若干天, 月, 年, 小时, 分钟和秒.
+
+- `DateTime::createFromFormat()`- 根据给定的格式, 返回一个新的格式化的DateTime对象.
+
+- `DateTime::diff()` - 返回两个 DateTime 对象的不同之处.
+
+- `DateTime::getLastErrors()` - 返回最后的日期/时间处理中的警告和错误.
+
+- `DateTime::sub()` - 从 DateTime 对象中减去若干天, 月, 年, 小时, 分钟和秒.
+
+##### 异常(Exception):
+
+- `Exception::getPrevious()` - 获取前一个异常.
+
+##### DOM:
+
+- `DOMNode::getLineNo()` - 返回解析节点的行数.
+
+##### PDO_FIREBIRD:
+
+- `PDO::setAttribute()` - 设置属性.
+
+##### 反射(Reflection):
+
+- `ReflectionClass::getNamespaceName()` - 返回类定义所在命名空间的的名称.
+
+- `ReflectionClass::getShortName()` - 返回类的短名称(没有命名空间部分).
+
+- `ReflectionClass::inNamespace()` - 返回类是否定义于一个命名空间.
+
+- `ReflectionFunction::getNamespaceName()` - 返回函数定义所在命名空间的名字.
+
+- `ReflectionFunction::getShortName()` - 返回函数的段名称(没有命名空间部分).
+
+- `ReflectionFunction::inNamespace()` - 返回函数在一个命名空间中是否被定义.
+
+- `ReflectionProperty::setAccessible()` - 设置是否可以请求非 public 属性.
+
+##### SPL:
+
+- `SplObjectStorage::addAll()` - 从另一个 SplObjectStorage 对象中新增全部元素.
+
+- `SplObjectStorage::removeAll()` - 从另一个 SplObjectStorage 对象中移除全部元素.
+
+##### XSL:
+
+- `XSLTProcessor::setProfiling()` - 设置概况输出文件.
+
+### 新增的扩展
+
+- `Enchant` - 各种拼写库的抽象层
+
+- `Fileinfo` - 已经被移除的 Mimetype 扩展的一个改进的、更加可靠的替代, 以 BC 为特色.
+
+- `INTL` - 国际化扩展. INTL 是 » ICU 库的一个包装器.
+
+- `Phar` - PHP 档案文件的实现.
+
+- `SQLite3` - 支持 SQLite version 3 数据库.
+
+### 被移除的扩展
+
+- `dbase` - 不再被保持
+
+- `fbsql` - 不再被保持
+
+- `fdf` - 被保持
+
+- `ming` - 被保持
+
+- `msql` - 不再被保持
+
+- `ncurses` - 被保存
+
+- `sybase` - 停用; 使用 sybase_ct 扩展代替.
+
+- `mhash` - 停用; 使用 hash 扩展代替. hash 全兼容 mhash; 全部使用旧函数的应用程序仍将可以工作.
+
+### 扩展的其他改变
+
+##### 以下扩展不再能在编译配置时进行关闭:
+
+- `PCRE`
+
+- `Reflection`
+
+- `SPL`
+
+#####　扩展行为和新功能的改变:
+
+- `Datetime` - 获取时区时不再使用 TZ 环境变量.
+
+- `cURL` - cURL 支持 SSH
+
+- `Network` - dns_check_record() 现在返回一个额外的 "entries" 索引, 包含 TXT 元素.
+
+- `Hash` - SHA-224 和 salsa 哈希算法获得支持.
+
+- `mbstring` - 现在支持 CP850 编码.
+
+- `OCI8` - 在持久连接上调用 `oci_close()` 或者在作用域外引用持久连接, 将回滚任何尚未提交的事务. 为了避免意外的行为, 根据需要明确发布和回滚事务. 使用 INI 指令`oci8.old_oci_close_semantics`可以打开旧的行为. 数据库驻留连接池(DRCP)和快速应用通知(FAN)获得支持. Oracle 外部认证获得支持(除了 Windows 平台). `oci_bind_by_name()` 函数现在支持 SQLT_AFC (又称 CHAR 数据类型).
+
+- `OpenSSL` - 支持 OpenSSL 摘要和加密函数. 访问 DSA, RSA 和 DH 键的内部值变为可能.
+
+- `Session`- 当应用了 open_basedir 限制, Session 不再将 Session 文件存储在 `"/tmp"` 目录中, 除非 `"/tmp"` 目录被明确添加到许可路径列表.
+
+- `SOAP` 支持发送用户提供的 HTTP 头.
+
+- `MySQLi` 通过在主机名前面添加 "p:" 来支持持久连接.
+
+- `image` And `GD` `gd_info()` 函数返回的 "JPG Support" 索引变更为 "JPEG Support".
