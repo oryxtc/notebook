@@ -216,3 +216,84 @@ description: PHP 5.3.x 的大多数改进对现有代码没有影响。需要注
 
 - `streamWrapper::stream_set_option()` - 更改流选项
 
+##### Date/Time:
+
+- `date_add()` - 向 DateTime 对象增加一定数量的天, 月, 年, 小时, 分钟和秒数.
+
+- `date_create_from_format()` - 根据给定的格式, 返回一个 DateTime 对象.
+
+- `date_diff()` - 返回两个 DateTime 对象的不同之处.
+
+- `date_get_last_errors()` - 返回最后的日期/时间操作中产生的警告和错误.
+
+- `date_parse_from_format()` - 获取一个日期的信息.
+
+- `date_sub()` - 从 DateTime 对象减去一定数量的天, 月, 年, 时和秒数.
+
+- `timezone_version_get()` - 返回时区数据库的版本.
+
+##### GMP:
+
+- `gmp_testbit()` - 测试一个比特是否被设置.
+
+##### Hash:
+
+- `hash_copy()` - 复制哈希环境.
+
+##### IMAP:
+
+- `imap_gc()` - 清除 IMAP 缓存.
+
+- `imap_utf8_to_mutf7()` - 编码 UTF-8 字符串为改进的 UTF-7 编码.
+
+- `imap_mutf7_to_utf8()` - 解码改进的 UTF-7 字符串为 UTF-8 编码.
+
+##### JSON:
+
+- `json_last_error()` - 返回最后发生的 JSON 错误.
+
+##### MySQL 改进:
+
+- `mysqli_fetch_all()` - 以关联数组、索引数组或者二者都有获取全部结果行.
+
+- `mysqli_get_connection_stats()` - 返回客户端连接的统计资料.
+
+- `mysqli_poll()` - 轮询连接.
+
+- `mysqli_reap_async_query()` - 从异步查询中获取结果.
+
+##### OpenSSL:
+
+- `openssl_random_pseudo_bytes()` - 返回一个以伪随机字节填充的指定长度的字符串.
+
+##### PCNTL:
+
+- `pcntl_signal_dispatch()` - 为挂起信号调用信号处理器.
+
+- `pcntl_sigprocmask()` - 设置和获取阻塞信号.
+
+- `pcntl_sigtimedwait()` - 等待信号, 但是有超时时间.
+
+- `pcntl_sigwaitinfo()` - 等待信号.
+
+##### PCRE:
+
+- `preg_filter()` - 执行正则查找和替换, 仅仅返回匹配正则的结果.
+
+##### 信号:
+
+- `msg_queue_exists()` - 检查消息队列是否存在.
+
+- `shm_has_var()` - 检查在一个共享内存段中, 是否存在指定的键(key).
+
+##### 以下函数被原生支持, 因此它们在所有运行 PHP 的操作系统上均可用.
+
+- `acosh()`
+
+- `asinh()`
+
+- `atanh()`
+
+- `expm1()`
+
+- `log1p()`
