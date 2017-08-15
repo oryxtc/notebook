@@ -1,12 +1,10 @@
 ---
-title: php版本升级详情
+title: 从 PHP 5.2.x 升级到 PHP 5.3.x
 date: 2017/8/14 16:32:00
 categories: php
 tags: 手册
-description: php各版本升级影响范围及详情
+description: PHP 5.3.x 的大多数改进对现有代码没有影响。需要注意的是有一些不兼容和新功能，在生产环境中切换 PHP 版本需要先行测试代码。
 ---
-
-# 从 PHP 5.2.x 移植到 PHP 5.3.x
 
 ### 不向下兼容的变化
 
