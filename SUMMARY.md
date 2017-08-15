@@ -25,7 +25,6 @@
     * [apple-支付订单查询](php/apple/苹果内购订单验证.md)
   * facebook
     * [facebook-检索用户个人主页](php/facebook/facebook-检索用户个人主页.md)
-  * [php版本升级详情](php/php版本升级详情.md)
 * web
   * node.js
     * [node.js常用命令](web/node.js/Node.js-常用命令.md)
