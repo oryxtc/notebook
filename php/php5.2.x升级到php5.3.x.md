@@ -435,3 +435,47 @@ description: PHP 5.3.x 的大多数改进对现有代码没有影响。需要注
 - `MySQLi` 通过在主机名前面添加 "p:" 来支持持久连接.
 
 - `image` And `GD` `gd_info()` 函数返回的 "JPG Support" 索引变更为 "JPEG Support".
+
+### PHP 5.3.x 新增的类
+
+##### `datetime`:
+
+- `DateInterval`
+
+- `DatePeriod`
+
+##### Phar:
+
+- `Phar`
+
+- `PharData`
+
+- `PharException`
+
+- `PharFileInfo`
+
+##### SPL:
+
+- `FilesystemIterator`
+
+- `GlobIterator`
+
+- `MultipleIterator`
+
+-`RecursiveTreeIterator`
+
+- `SplDoublyLinkedList`
+
+- `SplFixedArray`
+
+- `SplHeap`
+
+- `SplMaxHeap`
+
+- `SplMinHeap`
+
+- `SplPriorityQueue`
+
+- `SplQueue`
+
+- `SplStack`
