@@ -479,3 +479,257 @@ description: PHP 5.3.x 的大多数改进对现有代码没有影响。需要注
 - `SplQueue`
 
 - `SplStack`
+
+### 新的全局变量
+
+###### PHP 核心:
+
+- `__DIR__`
+
+- `__NAMESPACE__`
+
+- `E_DEPRECATED`
+
+-`E_USER_DEPRECATED`
+
+- `INI_SCANNER_NORMAL`
+
+- `INI_SCANNER_RAW`
+
+- `PHP_MAXPATHLEN`
+
+- `PHP_WINDOWS_NT_DOMAIN_CONTROLLER`
+
+- `PHP_WINDOWS_NT_SERVER`
+
+- `PHP_WINDOWS_NT_WORKSTATION`
+
+- `PHP_WINDOWS_VERSION_BUILD`
+
+- `PHP_WINDOWS_VERSION_MAJOR`
+
+- `PHP_WINDOWS_VERSION_MINOR`
+
+- `PHP_WINDOWS_VERSION_PLATFORM`
+
+- `PHP_WINDOWS_VERSION_PRODUCTTYPE`
+
+- `PHP_WINDOWS_VERSION_SP_MAJOR`
+
+- `PHP_WINDOWS_VERSION_SP_MINOR`
+
+- `PHP_WINDOWS_VERSION_SUITEMASK`
+
+##### cURL:
+
+- `CURLOPT_PROGRESSFUNCTION`
+
+##### GD:
+
+- `IMG_FILTER_PIXELATE`
+
+##### JSON:
+
+- `JSON_ERROR_CTRL_CHAR`
+
+- `JSON_ERROR_DEPTH`
+
+- `JSON_ERROR_NONE`
+
+- `JSON_ERROR_STATE_MISMATCH`
+
+- `JSON_ERROR_SYNTAX`
+
+- `JSON_FORCE_OBJECT`
+
+- `JSON_HEX_TAG`
+
+- `JSON_HEX_AMP`
+
+- `JSON_HEX_APOS`
+
+- `JSON_HEX_QUOT`
+
+##### LDAP:
+
+- `LDAP_OPT_NETWORK_TIMEOUT`
+
+##### libxml:
+
+- `LIBXML_LOADED_VERSION`
+
+##### PCRE:
+
+- `PREG_BAD_UTF8_OFFSET_ERROR`
+
+##### PCNTL:
+
+- `BUS_ADRALN`
+
+- `BUS_ADRERR`
+
+- `BUS_OBJERR`
+
+- `CLD_CONTIUNED`
+
+- `CLD_DUMPED`
+
+- `CLD_EXITED`
+
+- `CLD_KILLED`
+
+- `CLD_STOPPED`
+
+- `CLD_TRAPPED`
+
+- `FPE_FLTDIV`
+
+- `FPE_FLTINV`
+
+- `FPE_FLTOVF`
+
+- `FPE_FLTRES`
+
+- `FPE_FLTSUB`
+
+- `FPE_FLTUND`
+
+- `FPE_INTDIV`
+
+- `FPE_INTOVF`
+
+- `ILL_BADSTK`
+
+- `ILL_COPROC`
+
+- `ILL_ILLADR`
+
+- `ILL_ILLOPC`
+
+- `ILL_ILLOPN`
+
+- `ILL_ILLTRP`
+
+- `ILL_PRVOPC`
+
+- `ILL_PRVREG`
+
+- `POLL_ERR`
+
+- `POLL_HUP`
+
+- `POLL_IN`
+
+- `POLL_MSG`
+
+- `POLL_OUT`
+
+- `POLL_PRI`
+
+- `SEGV_ACCERR`
+
+- `SEGV_MAPERR`
+
+- `SI_ASYNCIO`
+
+- `SI_KERNEL`
+
+- `SI_MESGQ`
+
+- `SI_NOINFO`
+
+- `SI_QUEUE`
+
+- `SI_SIGIO`
+
+- `SI_TIMER`
+
+- `SI_TKILL`
+
+- `SI_USER`
+
+- `SIG_BLOCK`
+
+- `SIG_SETMASK`
+
+- `SIG_UNBLOCK`
+
+- `TRAP_BRKPT`
+
+- `TRAP_TRACE`
+
+### INI 文件处理改变
+
+##### PHP 5.3.0 显著改进了 INI 文件的性能和解析, 并且新增了若干语法功能.
+
+- 标准的 `php.ini` 文件被重新组织和命名. `php.ini-development` 包含在开发环境中推荐使用的设置. `php.ini-production` 包含在生产环境中推荐使用的设置.
+
+- 支持两个特殊章节: [PATH=/opt/httpd/www.example.com/] 和 [HOST=www.example.com]. 这两个章节里的指令不能被用户定义的 INI 文件或者运行时覆盖. 关于这些章节的更多信息, 可以这里找到.
+
+- 移除了 `zend_extension_debug` and `zend_extension_ts`. 使用 `zend_extension` 指令来加载全部 Zend 扩展.
+
+- 移除了 `zend.ze1_compatibility_mode`. 如果该 INI 指令被设置为 On, 启动时将抛出 E_ERROR 级别错误.
+
+- 在 "extension" 指令中可以使用全路径来加载模块.
+
+- "ini变量" 现在几乎在 php.ini 文件的任何地方都可以使用.
+
+- 可以在运行时收紧 `open_basedir` 限制条件.
+
+- 可以在 INI 选项数组中使用字母数字或者变量.
+
+- `get_cfg_var()` 现在可以返回 "数组(array)" INI 选项.
+
+- 添加了一个新指令 `mail.add_x_header`.
+
+- `user_ini.filename` 是新增的
+
+- `user_ini.cache_ttl` 也是新增的.
+
+- `exit_on_timeout` 也是新增的.
+
+- `open_basedir` 现在是 `PHP_INI_ALL` 的.
+
+##### 新增以下指令:
+
+- 新的 `.htaccess-style` 用户 INI 文件机制中的 `user_ini.filename` 和 `user_ini.cache_ttl`.
+
+- 新增 `mbstring.http_output_conv_mimetype`. 该指令指定了 `mb_output_handler()` 激活内容类型的正则表达式.
+
+- 新增 `request_order`. 允许控制哪些外部变量在 `$_REQUEST` 中可用.
+
+##### 以下 ini 指令默认值更新:
+
+- `session.use_only_cookies` 默认被设置为 "1"(打开).
+
+- `oci8.default_prefetch` 变更为从 "10" 到 "100".
+
+### 其他改变
+
+- `SplFileInfo::getpathinfo()` 现在返回 `path name` 信息.
+
+- `SplObjectStorage` 现在支持 `ArrayAccess`. 现在可以在 `SplObjectStorage` 中存储关联信息对象.
+
+- 在 `GD` 扩展中, 通过 `imagefilter()` 函数, 可以提供像素支持.
+
+- `var_dump()` 的输出现在包含对象的私有属性.
+
+- 如果会话启动失败, `session_start()` 现在将返回 FALSE.
+
+- `property_exists()` 可以检查一个属性的存在性, 而不管它的访问控制类型(类似于 `method_exists()`).
+
+- `include_path` 现在可以使用Stream 包装器.
+
+- `array_reduce()` 函数的 `initial` 参数现在可以是任何类型.
+
+- 如果没有明确传递上下文环境, 目录函数 `opendir()`, `scandir()`, 和 `dir()` 将使用默认的流上下文环境.
+
+- `crypt()` 函数支持 `Blowfish` 和 `DES` 算法, 并且 `crypt`() 的特点是非常便捷. PHP 有它自己内部的算法实现, 不管是否找到 `crypt` 或 `crypt_r`.
+
+- 在全部平台上, `getopt()` 开始接受"长选项". 可选值和作为短选项分隔符的 = 被支持.
+
+- `fopen()` 新增了一个模式选项(n), 它传递 `O_NONBLOCK` 常量给底层的 `open()` 系统调用. 注意, Windows 上该模式尚未得到支持.
+
+- `getimagesize()` 现在支持 `icon` 文件 (.ico).
+
+- `mhash` 扩展已经移动至 PECL, 但如果 PHP 使用 `--with-mhash` 选项参数进行编译, Hash 扩展也将提供 mhash 支持. 注意, 不管是否开启 mhash 算法, Hash 扩展都无需 mhash 库可用.
