@@ -490,7 +490,7 @@ description: PHP 5.3.x 的大多数改进对现有代码没有影响。需要注
 
 - `E_DEPRECATED`
 
--`E_USER_DEPRECATED`
+- `E_USER_DEPRECATED`
 
 - `INI_SCANNER_NORMAL`
 
