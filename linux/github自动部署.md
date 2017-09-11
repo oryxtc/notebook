@@ -103,3 +103,5 @@ npm install -g pm2
 ```bash
 pm2 start deploy.js --name auto-deploy # 命名进程
 ```
+### 最后在github的项目中配置webhook
+![](http://ooqid2far.bkt.clouddn.com/myblog/github%E8%87%AA%E5%8A%A8%E9%83%A8%E7%BD%B2-github.png)
