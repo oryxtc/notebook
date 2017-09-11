@@ -23,11 +23,12 @@ mkdir /home/webhook;
 cd /home/webhook;
 ```
 
-### 新建一个`deploy.js`作为监听程序,内容如下
+### 在当前文件夹下,新建一个`deploy.js`作为监听程序,内容如下
 ```js
 var http = require('http')
 var createHandler = require('github-webhook-handler')
-var handler = createHandler({ path: '/', secret: 'oryxtc-website' }) 
+var handler = createHandler({ path: '/', secret: 'your-secret' }) 
+// 上面的 path 即是github中填写的url的path部分
 // 上面的 secret 保持和 GitHub 后台设置的一致
  
 function run_cmd(cmd, args, callback) {
@@ -45,19 +46,20 @@ http.createServer(function (req, res) {
     res.end('no such location')
   })
 }).listen(7777)
+// listen(7777)指监听7777端口,可以根据实际情况改成你自己的
  
 handler.on('error', function (err) {
   console.error('Error:', err.message)
 })
  
 handler.on('push', function (event) {
-	var name=event.payload.repository.name;
-	console.log('Received a push event for %s to %s',
+  var name=event.payload.repository.name;
+  console.log('Received a push event for %s to %s',
     event.payload.repository.name,
     event.payload.ref);
   run_cmd('sh', ['./deploy.sh',name], function(text){ console.log(text) });
 })
- 
+//这里为了实现不同仓库的自动部署,传了仓库名给shell脚本 
 
 handler.on('issues', function (event) {
   console.log('Received an issue event for % action=%s: #%d %s',
@@ -67,7 +69,27 @@ handler.on('issues', function (event) {
     event.payload.issue.title)
 })
 ```
+### 在当前文件夹下新建一个`deploy.sh`脚本作为执行,内容如下
+```bash
+WEB_NAME="$1"
+WEB_PATH='/home/www/'${WEB_NAME}
+WEB_USER='root'
+WEB_USERGROUP='root'
 
+echo "Start deployment"
+
+cd $WEB_PATH
+
+echo "pulling source code..."
+git reset --hard origin/master
+git clean -f
+git pull
+git checkout master
+echo "changing permissions..."
+#chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH;
+echo "Finished."
+
+```
 ### 这里需要用到node.js的中间件`github-webhook-handler`
 ```bash
 
