@@ -94,3 +94,12 @@ echo "Finished."
 npm install github-webhook-handler
 ```
 
+### 为了自动部署能后台自动运行,并且断线自动重运行,这里使用`pm2`组件
+```bash
+npm install -g pm2
+```
+
+### 用`pm2`运行该进程
+```bash
+pm2 start deploy.js --name auto-deploy # 命名进程
+```
