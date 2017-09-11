@@ -88,6 +88,8 @@ echo "changing permissions..."
 echo "Finished."
 
 ```
-### 这里需要用到node.js的中间件`github-webhook-handler`
+### 这里需要用到node.js的中间件`github-webhook-handler`,安装到当前目录下
 ```bash
+npm install github-webhook-handler
+```
 
