@@ -153,4 +153,6 @@ description: '归纳总结了一些linux常用命令'
 |yum remove xxx|# 删除已安装的xxx|
 |wget http://xxxx|# 下载远端 zip 包|
 |echo '' > xxx|# 清空xxx文件内容|
+|netstat -an \| grep 80|# 80端口是否被监听|
+
 
