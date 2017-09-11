@@ -86,8 +86,9 @@ git checkout master
 echo "changing permissions..."
 #chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH;
 echo "Finished."
-
 ```
+>  这里要注意,如果是在Windows环境下编写文件,换行符会跟linux不一样!要用编辑器转换成UNIX格式
+
 ### 这里需要用到node.js的中间件`github-webhook-handler`,安装到当前目录下
 ```bash
 npm install github-webhook-handler
