@@ -5,7 +5,7 @@ categories: linux
 description: '通过node.js+webhook 实现github的自动部署'
 ---
 
-### 以下命令,均是在Debian系统环境下,若是其他系统,使用对应命令即可
+### 以下命令,均是在Debian系统环境下,若是其他系统,使用对应系统命令即可
 
 ### 安装node.js
 ```bash
