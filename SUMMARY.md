@@ -22,7 +22,7 @@
   * [curl连接实现](php/curl连接实现.md)
   * [composer-命令详解](php/composer常用命令.md)
   * apple
-    * [apple-支付订单查询](php/apple/苹果内购订单验证.md)
+    * [apple-支付订单查询](php/apple/apple支付订单查询.md)
   * facebook
     * [facebook-检索用户个人主页](php/facebook/facebook-检索用户个人主页.md)
 * web
