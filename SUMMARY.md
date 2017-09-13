@@ -8,7 +8,7 @@
   * [分页小部件的实现](yii2/分页小部件的实现.md)
   * [yii2-user扩展实现用户登录注册](yii2/yii2-user扩展实现用户登录注册.md)
   * [关于如何在单独的action中关闭Csrf验证](yii2/在单独的action中关闭csrf验证.md)
-  * \[init\(\),\_construct\(\),behaviors\(\) 编码区别\]\(yii2/init\(\),\_construct\(\),behaviors\(\)编码区别.md\)
+  * [init\(\),\_construct\(\),behaviors\(\) 编码区别](yii2/init\(\),\_construct\(\),behaviors\(\)编码区别.md)
 * thinkphp
   * [thinkphp-空操作 空控制器处理](thinkphp/thinkphp-空操作-空控制器处理.md)
 * [php](php.md)
