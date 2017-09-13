@@ -84,13 +84,20 @@ sudo apt-get install docker-ce=<VERSION>
 
 ### 安装docker-compose
 
+##### 查看github中docker-compose历史版本,地址为:[Compose repository](https://github.com/docker/compose/releases " Compose repository")
+
 ##### 通过执行以下命令下载当前版本
 ```bash
-curl -L https://github.com/docker/compose/releases/download/<version>/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
+curl -L https://github.com/docker/compose/releases/download/<VERSION>/docker-compose-`uname -s`-`uname -m` > /usr/local/bin/docker-compose
 ```
 
 ##### 为二进制文件添加执行权限
 ```bash
 chmod +x /usr/local/bin/docker-compose
+```
+
+### 如果想删除docker,执行以下命令
+```bash
+sudo apt-get purge docker-ce
 ```
 
