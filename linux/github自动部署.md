@@ -7,9 +7,10 @@ description: '通过node.js+webhook 实现github的自动部署'
 
 ### 以下命令,均是在Debian系统环境下,若是其他系统,使用对应系统命令即可
 
-### 安装node.js
+### 安装node.js 8
 ```bash
-sudo apt-get install nodejs
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ```
 
 ### 安装npm
