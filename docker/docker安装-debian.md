@@ -74,6 +74,10 @@ deb-src [arch=amd64] https://download.docker.com/linux/debian wheezy stable
 ```bash
 sudo apt-get update
 ```
+> 如果出现错误提示: `Is the package apt-transport-https installed`
+> 执行命令: `apt-get install apt-transport-https ca-certificates`
+
+
 
 ##### 安装最新版本的docker，或者到下一步安装指定版本的docker
 ```bash
