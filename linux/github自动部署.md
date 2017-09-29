@@ -13,11 +13,6 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
-### 安装npm
-```bash
-sudo apt-get install npm
-```
-
 ### 我这里新建了一个目录作为自动部署服务的根目录,并进入该目录
 ```
 mkdir /home/webhook;
