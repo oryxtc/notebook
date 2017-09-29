@@ -53,6 +53,9 @@ sudo add-apt-repository \
    $(lsb_release -cs) \
    stable"
 ```
+> 如果出现错误提示: `add-apt-repository: command not found`
+> 执行命令: `sudo apt-get install software-properties-common`
+
 **armhf**:
 ```bash
 sudo echo "deb [arch=armhf] https://download.docker.com/linux/$(. /etc/os-release; echo "$ID") \
