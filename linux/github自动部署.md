@@ -101,6 +101,8 @@ npm install github-webhook-handler
 ```bash
 npm install -g pm2
 ```
+>如果出现 `/usr/bin/pm2 -> /usr/lib/node_modules/pm2/bin/pm2`
+>使用软连接 `ln -s /usr/lib/node_modules/pm2/bin/pm2 /usr/bin/pm2`
 
 ### 用`pm2`运行该进程
 ```bash
