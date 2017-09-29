@@ -24,6 +24,9 @@ cd /home/webhook;
 ```
 
 ### 在当前文件夹下,新建一个`deploy.js`作为监听程序,内容如下
+> 以下文件已上传gist 可使用命令
+>`curl -O https://gist.githubusercontent.com/oryxtc/b0bb50c210e25207dc67132d778714b6/raw/5bc96226537b1d1d8001b57c96afc8c0d6929fdc/deploy.js`
+
 ```js
 var http = require('http')
 var createHandler = require('github-webhook-handler')
@@ -70,6 +73,10 @@ handler.on('issues', function (event) {
 })
 ```
 ### 在当前文件夹下新建一个`deploy.sh`脚本作为执行,内容如下
+> 以下文件已上传gist 可使用命令
+>`curl -O https://gist.githubusercontent.com/oryxtc/3850a573f0b6a0e7eb783658863d08cb/raw/2c34639a6eef24c10fb6f111fc0129d48036028c/deploy.sh`
+
+
 ```bash
 WEB_NAME="$1"
 WEB_PATH='/home/www/'${WEB_NAME}
