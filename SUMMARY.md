@@ -25,7 +25,6 @@
     * [apple-支付订单查询](php/apple/apple支付订单查询.md)
   * facebook
     * [facebook-检索用户个人主页](php/facebook/facebook检索用户个人主页.md)
-  * [laravel前期准备与上线前优化](php/laravel前期准备和后期优化.md)
 * web
   * node.js
     * [node.js常用命令](web/node.js/Node.js-常用命令.md)
@@ -61,4 +60,5 @@
 * laravel
   * [使用 Laravel Excel 导入导出 Excel & CSV](laravel/使用 Laravel Excel 导入导出 Excel & CSV.md)
   * [laravel+voyager 实现后台管理](laravel/laravel+voyager 实现后台管理.md)
+  * [laravel前期准备和上线前优化](laravel/laravel前期准备和上线前优化.md)
 
