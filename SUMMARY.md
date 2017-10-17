@@ -11,7 +11,7 @@
   * [init\(\),\_construct\(\),behaviors\(\) 编码区别](yii2/init\(\),\_construct\(\),behaviors\(\)编码区别.md)
 * thinkphp
   * [thinkphp-空操作 空控制器处理](thinkphp/thinkphp-空操作-空控制器处理.md)
-* [php]
+* php
   * [php代码块](php/php代码块.md)
   * [php5.2.x升级到php5.3.x](php/php5.2.x升级到php5.3.x.md)
   * [umeditor图片上传至七牛](php/umeditor图片上传至七牛.md)
