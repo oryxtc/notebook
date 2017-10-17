@@ -63,6 +63,12 @@ php artisan key:generate
 composer install --optimize-autoloader
 ```
 
+或者
+
+```bash
+composer dump-autoload --optimize
+```
+
 ### 优化配置加载
 ```bash
 php artisan config:cache
@@ -70,5 +76,5 @@ php artisan config:cache
 
 ### 优化路由加载
 ```bash
-php artisan route
+php artisan route:cache
 ```
