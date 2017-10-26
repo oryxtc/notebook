@@ -34,8 +34,8 @@
   * [webpack常用命令](webpack/webpack-常用命令.md)
 * apache
   * [http-vhosts配置详解](apche/http-vhosts配置详解.md)
-  * [yii2-前后台使用同一域名](apche/yii2-前后台使用同一域名.md)
-  * [yii2-前后端分离](apche/yii2-前后端分离.md)
+  * [yii2前后台使用同一域名](apche/yii2前后台使用同一域名.md)
+  * [yii2前后端分离](apche/yii2前后端分离.md)
 * nginx
   * [nginx-alias与root区别](nginx/nginx-alias与root区别.md)
   * [nginx-配置文件详解](nginx/nginx-.md)
