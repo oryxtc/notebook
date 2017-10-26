@@ -25,14 +25,13 @@
     * [apple-支付订单查询](php/apple/apple支付订单查询.md)
   * facebook
     * [facebook-检索用户个人主页](php/facebook/facebook检索用户个人主页.md)
-* web
-  * node.js
-    * [node.js常用命令](web/node.js/Node.js-常用命令.md)
-  * webpack
-    * [webpack常用命令](web/webpack/webpack-常用命令.md)
-  * javascript
-    * [javascript常用方法](web/javascript/javascript常用方法.md)
-    * [javascript第三方库](web/javascript/javascript第三方库.md)
+* node.js
+  * [node.js常用命令](web/node.js/Node.js-常用命令.md)
+* [javascript](javascript.md)
+  * [javascript常用方法](web/javascript/javascript常用方法.md)
+  * [javascript第三方库](web/javascript/javascript第三方库.md)
+* webpack
+  * [webpack常用命令](web/webpack/webpack-常用命令.md)
 * apache
   * [http-vhosts配置详解](apche/http-vhosts配置详解.md)
   * [yii2-前后台使用同一域名](apche/yii2-前后台使用同一域名.md)
