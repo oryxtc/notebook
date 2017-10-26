@@ -2,7 +2,6 @@
 title: javascript常用方法
 date: 2017/1/14 20:46:25
 categories:
-- web
 - javascript
 tags: javascript
 description: json字符串转换成对象&删除数组中重复元素&去掉字符串中转义和特殊字符...
