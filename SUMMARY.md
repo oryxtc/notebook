@@ -26,12 +26,12 @@
   * facebook
     * [facebook-检索用户个人主页](php/facebook/facebook检索用户个人主页.md)
 * node.js
-  * [node.js常用命令](web/node.js/Node.js-常用命令.md)
+  * [node.js常用命令](node.js/Node.js-常用命令.md)
 * [javascript](javascript.md)
-  * [javascript常用方法](web/javascript/javascript常用方法.md)
-  * [javascript第三方库](web/javascript/javascript第三方库.md)
+  * [javascript常用方法](javascript/javascript常用方法.md)
+  * [javascript第三方库](javascript/javascript第三方库.md)
 * webpack
-  * [webpack常用命令](web/webpack/webpack-常用命令.md)
+  * [webpack常用命令](webpack/webpack-常用命令.md)
 * apache
   * [http-vhosts配置详解](apche/http-vhosts配置详解.md)
   * [yii2-前后台使用同一域名](apche/yii2-前后台使用同一域名.md)
