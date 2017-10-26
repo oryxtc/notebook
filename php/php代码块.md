@@ -150,13 +150,6 @@ EOF;
 
 ### 菜单栏数据递归实现
 ```php
-
-/**
- * 递归格式化菜单数据
- * @param $menuData
- * @param array $finalMenuData
- * @return array
- */
 public static function formatMenu(&$menuData, &$finalMenuData = [])
 {
     foreach ($menuData as $key => $item) {
@@ -168,12 +161,6 @@ public static function formatMenu(&$menuData, &$finalMenuData = [])
     }
     return $finalMenuData;
 }
-
-/**
- * 通过parent_id 格式化菜单数据
- * @param $item
- * @param array $finalMenuData
- */
 public static function formatMenuByParentId($item, &$finalMenuData = [])
 {
     foreach ($finalMenuData as &$value) {
