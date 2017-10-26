@@ -51,7 +51,7 @@ description: 通过实现一个element ui的菜单组件,再递归该组件,实�
 ```
 
 ### 新建MenuBar.vue文件,实现获取后端数据及布局功能
-```
+```html
 <template>
     <div>
         <el-radio-group v-model="isCollapse" style="margin-bottom: 20px;">
@@ -100,7 +100,7 @@ description: 通过实现一个element ui的菜单组件,再递归该组件,实�
 ```
 
 ### 新建MenuTree.vue 实现菜单栏列的递归渲染
-```
+```html
 <template>
     <div>
         <template v-for="value in this.menuData">
