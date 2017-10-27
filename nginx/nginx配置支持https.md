@@ -14,7 +14,7 @@ description: 使用开源的certbot生成https证书,并配置nginx.conf以支�
 sudo apt-get install certbot -t jessie-backports
 ```
 ### 配置nginx.conf
-##### 因为cerbot会对`域名/.well-known/acme-challenge/`发送一条请求,以验证你的域名与对应的项目目录是否匹配,这里对nginx.conf配置新增以下代码
+**因为cerbot会对`域名/.well-known/acme-challenge/`发送一条请求,以验证你的域名与对应的项目目录是否匹配,这里对nginx.conf配置新增以下代码**
 ```nginx
 server {
   ###原配置
@@ -32,7 +32,7 @@ sudo certbot certonly
 ```
 
 ### 验证方式
-##### 以什么方式验证身份,这里推荐输入 1,选择项目根目录方式.
+**以什么方式验证身份,这里推荐输入 1,选择项目根目录方式.**
 ```bash
 root@iZwz978masqmg60f7ex16yZ:/home/docker/website/nginx# sudo certbot certonly
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
@@ -63,7 +63,7 @@ Input the webroot for outer-performance.oryxtc.xyz: (Enter 'c' to cancel):/home/
 > 我使用的laravel框架,入口文件在`public`文件夹下,这里根目录地址填写`public`文件夹路径
 
 ### 验证成功
-#####  域名验证完成,会在`/etc/letsencrypt/live/域名名称` 文件下生成密钥
+**域名验证完成,会在`/etc/letsencrypt/live/域名名称` 文件下生成密钥**
 ```bash
 Waiting for verification...
 Cleaning up challenges
@@ -102,12 +102,12 @@ server {
 
 
 ### 证书自动延期
-##### 检测证书是否合法
+**检测证书是否合法**
 ```bash
 sudo certbot renew --dry-run
 ```
-
-##### 如果有显示`Congratulations, all renewals succeeded`,执行证书自动延期
+**
+如果有显示`Congratulations, all renewals succeeded`,执行证书自动延期**
 ```bash
 certbot renew 
 ```
