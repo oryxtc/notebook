@@ -40,6 +40,7 @@
   * [nginx-alias与root区别](nginx/nginx-alias与root区别.md)
   * [nginx配置文件详解](nginx/nginx配置文件详解.md)
   * [nginx同一IP上配置多个HTTPS主机](nginx/nginx同一IP配置多个https主机.md)
+  * [nginx配置支持https](nginx/nginx配置支持https.md)
 * [linux](linux.md)
   * [日志定时分割实现](linux/日志定时分割实现.md)
   * [记录终端输出到文本文件](linux/记录终端输出到文本文件.md)
