@@ -140,7 +140,7 @@ public function formatMenu($menuData = [], $finalMenuData = [])
 * @param $item
 * @param array $finalMenuData
 */
-public function formatMenuByParentId($item, $finalMenuData = [])
+public function formatMenuByParentId($item = [], $finalMenuData = [])
 {
     foreach ($finalMenuData as &$value) {
         if ($item['parent_id'] === $value['id']) {
