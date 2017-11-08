@@ -123,14 +123,14 @@ print_r(decode($str,$key));
 * @param array $finalMenuData
 * @return array
 */
-public static function formatMenu(&$menuData, &$finalMenuData = [])
+public function formatMenu($menuData = [], $finalMenuData = [])
 {
     foreach ($menuData as $key => $item) {
         if ($item['parent_id'] === 0) {
             $finalMenuData[] = $item;
             continue;
         }
-        self::formatMenuByParentId($item, $finalMenuData);
+        $this->formatMenuByParentId($item, $finalMenuData);
     }
     return $finalMenuData;
 }
@@ -140,7 +140,7 @@ public static function formatMenu(&$menuData, &$finalMenuData = [])
 * @param $item
 * @param array $finalMenuData
 */
-public static function formatMenuByParentId($item, &$finalMenuData = [])
+public function formatMenuByParentId($item, $finalMenuData = [])
 {
     foreach ($finalMenuData as &$value) {
         if ($item['parent_id'] === $value['id']) {
