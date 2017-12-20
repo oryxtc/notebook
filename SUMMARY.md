@@ -51,11 +51,12 @@
 * [git](git.md)
   * [git常用命令](git/git常用命令.md)
   * [git常用命令的选项](git/git常用命令选项.md)
-* docker
+* [docker](docker.md)
   * [docker安装-Windows版](docker/安装Docker for Windows.md)
   * [docker安装-Debian](docker/docker安装-debian.md)
   * [Dockerfile方式创建php镜像](docker/dockerfile创建镜像.md)
   * [docker-compose方式创建 nginx+php](docker/docker-compose方式创建nginx+php.md)
+  * [docker下phpstorm使用xdebug](docker/docker下phpstorm使用xdebug.md)
 * laravel
   * [使用 Laravel Excel 导入导出 Excel & CSV](laravel/使用 Laravel Excel 导入导出 Excel & CSV.md)
   * [laravel+voyager 实现后台管理](laravel/laravel+voyager 实现后台管理.md)
