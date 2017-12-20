@@ -101,7 +101,7 @@ echo "Finished."
 ### 在当前文件夹下新建一个`deploy_hexo.sh`脚本执行自动拉取,以及hexo部署和提交.(根据自己情况 修改路径等)
 > 以下文件已上传gist 可使用命令
 >```bash
-curl -O https://gist.githubusercontent.com/oryxtc/eac1ec324ed295cddcae7c6767bc09f8/raw/dc73f5ee12cd9346530b8b415df3fb0d081b5e93/deploy_hexo.sh
+curl -O https://gist.githubusercontent.com/oryxtc/eac1ec324ed295cddcae7c6767bc09f8/raw/526bac7bd329af368a265279e3ecf8898d3704ca/deploy_hexo.sh
 ```
 
 ```bash
@@ -113,10 +113,10 @@ WEB_USERGROUP='root'
 echo "Start deployment"
 cd $WEB_SOURCE_PATH
 echo "pulling source code..."
+git checkout master
 git reset --hard origin/master
 git clean -f
-git pull
-git checkout master
+git pull origin master
 echo "changing permissions..."
 #chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH;
 echo "start hexo deployment"
