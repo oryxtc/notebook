@@ -1,6 +1,6 @@
 ---
 title: docker下phpstorm使用xdebug
-date: 2017/12/20 14:00:00
+date: 2017/12/20
 categories: docker
 tags:
 - xdebug
