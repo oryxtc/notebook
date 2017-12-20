@@ -78,7 +78,7 @@ handler.on('issues', function (event) {
 ### 在当前文件夹下新建一个`deploy.sh`脚本执行自动拉取,内容如下
 > 以下文件已上传gist 可使用命令
 >```bash
-curl -O https://gist.githubusercontent.com/oryxtc/3850a573f0b6a0e7eb783658863d08cb/raw/37ff489151a7bef730ea30310ad98d5938942457/deploy.sh
+curl -O https://gist.githubusercontent.com/oryxtc/3850a573f0b6a0e7eb783658863d08cb/raw/0750ad8eb8c1feed24d07fb0f1f11a7baa07a212/deploy.sh
 ```
 
 ```bash
@@ -90,18 +90,19 @@ WEB_USERGROUP='root'
 echo "Start deployment"
 cd $WEB_PATH
 echo "pulling source code..."
+git checkout master
 git reset --hard origin/master
 git clean -f
-git pull
-git checkout master
-echo "changing permissions..."
+git pull origin master
+
+#echo "changing permissions..."
 #chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH;
 echo "Finished."
 ```
 ### 在当前文件夹下新建一个`deploy_hexo.sh`脚本执行自动拉取,以及hexo部署和提交.(根据自己情况 修改路径等)
 > 以下文件已上传gist 可使用命令
 >```bash
-curl -O https://gist.githubusercontent.com/oryxtc/eac1ec324ed295cddcae7c6767bc09f8/raw/aa673d1bd7f4f47a03da6f068f76b5c6a055ea17/deploy_hexo.sh
+curl -O https://gist.githubusercontent.com/oryxtc/eac1ec324ed295cddcae7c6767bc09f8/raw/09f97c4978e4336a139894d6a99b7d2d4513553b/deploy_hexo.sh
 ```
 
 ```bash
@@ -110,6 +111,7 @@ WEB_PATH='/home/www/'${WEB_NAME}
 WEB_SOURCE_PATH=${WEB_PATH}'/source/_posts'
 WEB_USER='root'
 WEB_USERGROUP='root'
+
 echo "Start deployment"
 cd $WEB_SOURCE_PATH
 echo "pulling source code..."
@@ -117,11 +119,17 @@ git checkout master
 git reset --hard origin/master
 git clean -f
 git pull origin master
-echo "changing permissions..."
+
+#chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH;
+#echo "changing permissions..."
 #chown -R $WEB_USER:$WEB_USERGROUP $WEB_PATH;
 echo "start hexo deployment"
 cd $WEB_PATH
 hexo d -g
+
+#if you have hexo algolia component
+echo "start algolia deployment"
+hexo algolia
 echo "Finished."
 ```
 >  这里要注意,如果是在Windows环境下编写文件,换行符会跟linux不一样!要用编辑器转换成UNIX格式
