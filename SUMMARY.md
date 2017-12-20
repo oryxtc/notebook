@@ -51,7 +51,6 @@
 * [git](git.md)
   * [git常用命令](git/git常用命令.md)
   * [git常用命令的选项](git/git常用命令选项.md)
-* [第三方储备](third_party_reserves/第三方储备.md)
 * docker
   * [docker安装-Windows版](docker/安装Docker for Windows.md)
   * [docker安装-Debian](docker/docker安装-debian.md)
@@ -63,4 +62,5 @@
   * [laravel前期准备和上线前优化](laravel/laravel前期准备和上线前优化.md)
 * [vue](vue.md)
   * [vue+element ui 实现菜单无限极分类](vue/vue+element ui 实现菜单无限极分类.md)
+* [第三方储备](third_party_reserves/第三方储备.md)
 
