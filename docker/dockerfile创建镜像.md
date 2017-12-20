@@ -1,6 +1,6 @@
 ---
 title: dockerfile创建镜像
-date: 2017/12/20
+date: 2017/12/20 14:00:00
 categories: docker
 tags: dockerfile
 description: 对于创建某一个镜像包,推荐使用dockerfile方式,本文示例了php-7.1-fpm镜像创建过程
