@@ -78,7 +78,7 @@ handler.on('issues', function (event) {
 ### 在当前文件夹下新建一个`deploy.sh`脚本执行自动拉取,内容如下
 > 以下文件已上传gist 可使用命令
 >```bash
-curl -O https://gist.githubusercontent.com/oryxtc/3850a573f0b6a0e7eb783658863d08cb/raw/2c34639a6eef24c10fb6f111fc0129d48036028c/deploy.sh
+curl -O https://gist.githubusercontent.com/oryxtc/3850a573f0b6a0e7eb783658863d08cb/raw/37ff489151a7bef730ea30310ad98d5938942457/deploy.sh
 ```
 
 ```bash
@@ -101,7 +101,7 @@ echo "Finished."
 ### 在当前文件夹下新建一个`deploy_hexo.sh`脚本执行自动拉取,以及hexo部署和提交.(根据自己情况 修改路径等)
 > 以下文件已上传gist 可使用命令
 >```bash
-curl -O https://gist.githubusercontent.com/oryxtc/eac1ec324ed295cddcae7c6767bc09f8/raw/526bac7bd329af368a265279e3ecf8898d3704ca/deploy_hexo.sh
+curl -O https://gist.githubusercontent.com/oryxtc/eac1ec324ed295cddcae7c6767bc09f8/raw/aa673d1bd7f4f47a03da6f068f76b5c6a055ea17/deploy_hexo.sh
 ```
 
 ```bash
