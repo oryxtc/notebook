@@ -148,7 +148,7 @@ public function formatMenuByParentId($item = [], $finalMenuData = [])
             continue;
         }
         if (!empty($value['node'])) {
-            self::formatMenuByParentId($item, $value['node']);
+            $this->formatMenuByParentId($item, $value['node']);
         }
     }
 }
