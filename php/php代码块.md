@@ -150,39 +150,21 @@ function getMenuTree($menuData) {
 ### 菜单栏数据递归实现
 ```php
 /**
-* 格式化菜单数据
-* @param $menuData
-* @param array $finalMenuData
-* @return array
-*/
-public function formatMenu($menuData = [], $finalMenuData = [])
+ * 格式化菜单数据
+ * @param $menus_data
+ * @param int $parent_id
+ * @return array
+ */
+function formatMenu($menus_data, $parent_id = 0)
 {
-    foreach ($menuData as $key => $item) {
-        if ($item['parent_id'] === 0) {
-            $finalMenuData[] = $item;
-            continue;
-        }
-        $this->formatMenuByParentId($item, $finalMenuData);
-    }
-    return $finalMenuData;
-}
-
-/**
-* 通过parent_id 格式化菜单数据
-* @param $item
-* @param array $finalMenuData
-*/
-public function formatMenuByParentId($item = [], $finalMenuData = [])
-{
-    foreach ($finalMenuData as &$value) {
-        if ($item['parent_id'] === $value['id']) {
-            $value['node'][] = $item;
-            continue;
-        }
-        if (!empty($value['node'])) {
-            $this->formatMenuByParentId($item, $value['node']);
+    $return_data = [];
+    foreach ($menus_data as $menus_datum) {
+        if ($menus_datum['parent_id'] === $parent_id) {
+            $menus_datum['child'] = $this->formatMenu($menus_data, $menus_datum['id']);
+            $return_data[]        = $menus_datum;
         }
     }
+    return $return_data;
 }
 ```
 
