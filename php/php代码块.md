@@ -115,6 +115,38 @@ function decode($str,$key)
 print_r(decode($str,$key));
 ```
 
+### 菜单栏数据引用赋值实现
+**方式1:**
+```php
+/**
+ * 格式化菜单数据
+ * @param $menuData
+ * @return array
+ */
+function getMenuTree($menuData) {
+    foreach ($menuData as $item)
+        $menuData[$item['parent_id']]['son'][$item['id']] = &$menuData[$item['id']];
+    return isset($menuData[0]['son']) ? $menuData[0]['son'] : [];
+}
+```
+
+**方式2**
+```php
+/**
+ * 格式化菜单数据
+ * @param $menuData
+ * @return array
+ */
+function getMenuTree($menuData) {
+    $tree = []; //格式化好的树
+    foreach ($menuData as $item)
+        if (isset($menuData[$item['parent_id']]))
+            $menuData[$item['parent_id']]['son'][] = &$menuData[$item['id']];
+        else
+            $tree[] = &$menuData[$item['id']];
+    return $tree;
+}
+```
 ### 菜单栏数据递归实现
 ```php
 /**
