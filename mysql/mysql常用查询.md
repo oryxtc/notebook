@@ -35,3 +35,17 @@ LEFT JOIN {table_name_2} bmo2 ON (
 WHERE
 	{condition}
 ```
+
+### 优化分页查询
+**传统查询**
+```sql
+SELECT * FROM articles WHERE category_id = 123 ORDER BY id LIMIT 50, 10;
+```
+
+**优化查询**
+```sql
+SELECT * FROM articles WHERE  id >=  
+(SELECT id FROM articles  WHERE category_id = 123 ORDER BY id LIMIT 10000, 1) LIMIT 10 
+```
+>1.使用有索引的列或主键进行order by排序.
+ 2.记录上次返回的主键,在下次查询时使用主键过滤.
