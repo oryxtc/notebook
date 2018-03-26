@@ -199,3 +199,24 @@ echo $str;
 }
 ```
 
+### 冒泡排序
+```php
+$arr = [36, 45, 21, 46, 18, 22, 33, 1, 99, 120, 25];
+function bubbleSort($arr = [])
+{
+    $len = count($arr);
+    //外层循环$len-1次
+    for ($i = 1; $i < $len; ++$i) {
+        //从剩余$len-$i+1个数中冒泡出最大的数(注意索引下标是从0开始)
+        for ($k = 0; $k < $len - $i; $k++) {
+            //比较相邻两数,如果前一个比后一个数大,则交换位置
+            if ($arr[$k] > $arr[$k + 1]) {
+                $tmp         = $arr[$k];
+                $arr[$k]     = $arr[$k + 1];
+                $arr[$k + 1] = $tmp;
+            }
+        }
+    }
+    return $arr;
+}
+```
