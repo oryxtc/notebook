@@ -201,7 +201,6 @@ echo $str;
 
 ### 冒泡排序
 ```php
-$arr = [36, 45, 21, 46, 18, 22, 33, 1, 99, 120, 25];
 function bubbleSort($arr = [])
 {
     $len = count($arr);
@@ -223,7 +222,6 @@ function bubbleSort($arr = [])
 
 ### 选择排序
 ```php
-$arr = [36, 45, 21, 46, 18, 22, 33, 1, 99, 120, 25];
 function selectSort($arr = [])
 {
     $len = count($arr);
@@ -242,6 +240,31 @@ function selectSort($arr = [])
             $tmp            = $arr[$minIndex];
             $arr[$minIndex] = $arr[$i];
             $arr[$i]        = $tmp;
+        }
+    }
+    return $arr;
+}
+```
+
+### 插入排序
+```php
+function insertSort($arr = [])
+{
+    $len = count($arr);
+    //外层循环$len-1次
+    for ($i = 1; $i < $len; $i++) {
+        //赋值准备插入的值
+        $tmp = $arr[$i];
+        //数组倒序比较的方式
+        for ($k = $i - 1; $k >= 0; $k--) {
+            //如果当前值比要插入的值大,就交换
+            if ($arr[$k] > $tmp) {
+                $arr[$k + 1] = $arr[$k];
+                $arr[$k]     = $tmp;
+            } else {
+                //因为前面已经排好序,这里直接跳出内层循环
+                break;
+            }
         }
     }
     return $arr;
