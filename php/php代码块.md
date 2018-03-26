@@ -206,7 +206,7 @@ function bubbleSort($arr = [])
 {
     $len = count($arr);
     //外层循环$len-1次
-    for ($i = 1; $i < $len; ++$i) {
+    for ($i = 1; $i < $len; $i++) {
         //从剩余$len-$i+1个数中冒泡出最大的数(注意索引下标是从0开始)
         for ($k = 0; $k < $len - $i; $k++) {
             //比较相邻两数,如果前一个比后一个数大,则交换位置
