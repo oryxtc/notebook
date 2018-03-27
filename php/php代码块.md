@@ -227,7 +227,7 @@ function selectSort($arr = [])
     $len = count($arr);
     //外层循环$len次
     for ($i = 0; $i < $len; $i++) {
-        //假设当前数值是最小值,记录下最小值的索引
+        //当前最小值的索引
         $minIndex = $i;
         for ($k = $i; $k < $len; $k++) {
             //当期值比最小值小 则重新赋值最小值索引
