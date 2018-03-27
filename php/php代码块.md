@@ -270,3 +270,29 @@ function insertSort($arr = [])
     return $arr;
 }
 ```
+
+### 快速排序
+```php
+function quickSort($arr = [])
+{
+    $len = count($arr);
+    if ($len <= 1) {
+        return $arr;
+    }
+    //默认基准值为第一个数
+    $baseNum  = $arr[0];
+    $leftArr  = [];
+    $rightArr = [];
+    //从数组第二个开始与基准值比较
+    for ($i = 1; $i < $len; $i++) {
+        //注意需要考虑有相同值的情况
+        if ($arr[$i] <= $baseNum) {
+            $leftArr[] = $arr[$i];
+        } else {
+            $rightArr[] = $arr[$i];
+        }
+    }
+    //递归合并数组
+    return array_merge(quickSort($leftArr), [$baseNum], quickSort($rightArr));
+}
+```
