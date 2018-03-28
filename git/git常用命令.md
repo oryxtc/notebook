@@ -121,12 +121,12 @@ git fetch [remote-name]
 
 ### 从远程仓库分支拉取到本地(会在本地新建分支，自动切换到该本地分支,并本地分支会和远程分支建立映射关系)
 ```git
-git checkout -b [branch-name] origin/[remote-name]
+git checkout -b [branch-name] [remote-name]/[branch-name]
 ```
 
 ### 推送到远程仓库(会在本地新建分支，但是不会自动切换到该本地分支,并本地分支不会和远程分支建立映射关系)
 ```git
-git fetch origin [remote-name]:[branch-name]
+git fetch [remote-name] [branch-name]:[branch-name]
 ```
 
 ### 当前分支与远程仓库分支建立映射关系
