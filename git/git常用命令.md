@@ -1,6 +1,6 @@
 ---
 title: git常用命令
-date: 2017/1/14 20:46:25
+date: 2018/3/28 16:37:00
 categories: git
 tags: git
 description: 整理了下git常用的命令
@@ -119,10 +119,26 @@ git remote add <shortname> <url>
 git fetch [remote-name]
 ```
 
-### 推送到远程仓库
+### 从远程仓库分支拉取到本地(会在本地新建分支，自动切换到该本地分支,并本地分支会和远程分支建立映射关系)
 ```git
-git push [remote-name] [branch-name]
+git checkout -b [branch-name] origin/[remote-name]
 ```
+
+### 从远程仓库分支拉取到本地(会在本地新建分支，自动切换到该本地分支,并本地分支会和远程分支建立映射关系)
+```git
+git checkout -b [branch-name] origin/[remote-name]
+```
+
+### 推送到远程仓库(会在本地新建分支，但是不会自动切换到该本地分支,并本地分支不会和远程分支建立映射关系)
+```git
+git fetch origin [remote-name]:[branch-name]
+```
+
+### 当前分支与远程仓库分支建立映射关系
+```git
+git branch --set-upstream-to origin/[remote-name]
+```
+
 ### 查看远程仓库
 ```git
 git remote show [remote-name]
@@ -212,31 +228,70 @@ git rebase [basebranch] [topicbranch]
 git rebase --onto master server client
 ```
 
-### 43.用变基解决变基
+### 用变基解决变基
 ```git
 git pull --rebase
 ```
 
-### 44.把现有仓库导出为裸仓库
+### 把现有仓库导出为裸仓库
 ```git
 git clone --bare [library-name] [newlibrary-name]
 ```
 
-### 45.复制你的裸仓库来创建一个新仓库
+### 复制你的裸仓库来创建一个新仓库
 ```git
 scp -r my_project.git user@git.example.com:/opt/git
 ```
 
-### 46.强制提交
+### 强制提交
 ```git
 git push [remote-name] [branch-name] --force
 ```
 
-### 3.丢弃当前全部暂存
+### 丢弃当前全部暂存
 ```git
 git checkout .
 ```
-### 4.查看当前版本号
+### 查看当前版本号
 ```git
 git rev-parse HEAD
+```
+
+### 全局提交用户名与邮箱
+```git
+git config --global user.name "Yuchen Deng"
+git config --global user.email 邮箱名@gmail.com
+```
+
+### 中文编码支持
+```git
+git config --global gui.encoding utf-8
+git config --global i18n.commitencoding utf-8
+git config --global i18n.logoutputencoding utf-8
+```
+
+### 全局编辑器，提交时将COMMIT_EDITMSG编码转换成UTF-8可避免乱码
+```git
+git config --global core.editor notepad2
+```
+
+### 差异工具配置
+```git
+git config --global diff.external git-diff-wrapper.sh
+git config --global diff.tool tortoise
+git config --global difftool.tortoise.cmd 'TortoiseMerge -base:"$LOCAL" -theirs:"$REMOTE"'
+git config --global difftool.prompt false
+```
+
+### 合并工具配置
+```git
+git config --global merge.tool tortoise
+git config --global mergetool.tortoise.cmd 'TortoiseMerge -base:"$BASE" -theirs:"$REMOTE" -mine:"$LOCAL" -merged:"$MERGED"'
+git config --global mergetool.prompt false
+```
+
+### 别名设置
+```git
+git config --global alias.dt difftool
+git config --global alias.mt mergetool
 ```
