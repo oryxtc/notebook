@@ -7,7 +7,7 @@ tags:
 description:  rabbitmq部分功能的实现方法
 ---
 
-### RabbitMQ 功能实现
+### RabbitMQ 功能实现1
 >引入php-amqplib类库,类库地址为[https://github.com/php-amqplib/php-amqplib](https://github.com/php-amqplib/php-amqplib)
 
 ### 简单的示例代码实现
