@@ -17,6 +17,11 @@
     * [facebook-检索用户个人主页](php/facebook/facebook检索用户个人主页.md)
 * mysql
   * [mysql常用查询](mysql/mysql常用查询.md)
+* nginx
+  * [nginx-alias与root区别](nginx/nginx-alias与root区别.md)
+  * [nginx配置文件详解](nginx/nginx配置文件详解.md)
+  * [nginx同一IP上配置多个HTTPS主机](nginx/nginx同一IP配置多个https主机.md)
+  * [nginx配置支持https](nginx/nginx配置支持https.md)
 * yii2
   * [yii2-代码块](yii2/yii2代码块.md)
   * [开源后台模板AdminLTE](yii2/使用开源后台模板adminlte.md)
@@ -34,17 +39,6 @@
   * [javascript第三方库](javascript/javascript第三方库.md)
 * webpack
   * [webpack常用命令](webpack/webpack-常用命令.md)
-* apache
-  * [http-vhosts配置详解](apche/http-vhosts配置详解.md)
-  * [yii2前后台使用同一域名](apche/yii2前后台使用同一域名.md)
-  * [yii2前后端分离](apche/yii2前后端分离.md)
-* nginx
-  * [nginx-alias与root区别](nginx/nginx-alias与root区别.md)
-  * [nginx配置文件详解](nginx/nginx配置文件详解.md)
-  * [nginx同一IP上配置多个HTTPS主机](nginx/nginx同一IP配置多个https主机.md)
-  * [nginx配置支持https](nginx/nginx配置支持https.md)
-* mysql
-  * [mysql常用查询](mysql/mysql常用查询.md)
 * [git](git.md)
   * [git常用命令](git/git常用命令.md)
   * [git常用命令的选项](git/git常用命令选项.md)
