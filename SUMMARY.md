@@ -1,16 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* yii2
-  * [yii2-代码块](yii2/yii2代码块.md)
-  * [开源后台模板AdminLTE](yii2/使用开源后台模板adminlte.md)
-  * [RBAC控制与管理的实现](yii2/后台实现rbac权限管理方法.md)
-  * [分页小部件的实现](yii2/分页小部件的实现.md)
-  * [yii2-user扩展实现用户登录注册](yii2/yii2-user扩展实现用户登录注册.md)
-  * [关于如何在单独的action中关闭Csrf验证](yii2/在单独的action中关闭csrf验证.md)
-  * [init\(\),\_construct\(\),behaviors\(\) 编码区别](yii2/init%28%29,_construct%28%29,behaviors%28%29编码区别.md)
-* thinkphp
-  * [thinkphp-空操作 空控制器处理](thinkphp/thinkphp-空操作-空控制器处理.md)
 * [php](php.md)
   * [php代码块](php/php代码块.md)
   * [php5.2.x升级到php5.3.x](php/php5.2.x升级到php5.3.x.md)
@@ -25,6 +15,18 @@
     * [apple-支付订单查询](php/apple/apple支付订单查询.md)
   * facebook
     * [facebook-检索用户个人主页](php/facebook/facebook检索用户个人主页.md)
+* mysql
+  * [mysql常用查询](mysql/mysql常用查询.md)
+* yii2
+  * [yii2-代码块](yii2/yii2代码块.md)
+  * [开源后台模板AdminLTE](yii2/使用开源后台模板adminlte.md)
+  * [RBAC控制与管理的实现](yii2/后台实现rbac权限管理方法.md)
+  * [分页小部件的实现](yii2/分页小部件的实现.md)
+  * [yii2-user扩展实现用户登录注册](yii2/yii2-user扩展实现用户登录注册.md)
+  * [关于如何在单独的action中关闭Csrf验证](yii2/在单独的action中关闭csrf验证.md)
+  * [init\(\),\_construct\(\),behaviors\(\) 编码区别](yii2/init%28%29,_construct%28%29,behaviors%28%29编码区别.md)
+* thinkphp
+  * [thinkphp-空操作 空控制器处理](thinkphp/thinkphp-空操作-空控制器处理.md)
 * node.js
   * [node.js常用命令](node.js/Node.js-常用命令.md)
 * [javascript](javascript.md)
@@ -41,11 +43,6 @@
   * [nginx配置文件详解](nginx/nginx配置文件详解.md)
   * [nginx同一IP上配置多个HTTPS主机](nginx/nginx同一IP配置多个https主机.md)
   * [nginx配置支持https](nginx/nginx配置支持https.md)
-* [linux](linux.md)
-  * [日志定时分割实现](linux/日志定时分割实现.md)
-  * [记录终端输出到文本文件](linux/记录终端输出到文本文件.md)
-  * [linux常用命令](linux/linux常用命令.md)
-  * [github自动部署](linux/github自动部署.md)
 * mysql
   * [mysql常用查询](mysql/mysql常用查询.md)
 * [git](git.md)
