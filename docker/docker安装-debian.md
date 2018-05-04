@@ -28,7 +28,7 @@ sudo apt-get update && apt-get -y install \
   ca-certificates \
   curl \
   gnupg2 \
-  software-properties-commo
+  software-properties-common
 ```
 
 **Wheezy:**
