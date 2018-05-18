@@ -54,5 +54,5 @@
   * [laravel前期准备和上线前优化](laravel/laravel前期准备和上线前优化.md)
 * [vue](vue.md)
   * [vue+element ui 实现菜单无限极分类](vue/vue+element ui 实现菜单无限极分类.md)
-* [第三方储备](third_party_reserves/第三方储备.md)
+* [other](other/第三方储备.md)
 
