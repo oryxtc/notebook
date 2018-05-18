@@ -1,3 +1,9 @@
+---
+title: ubuntu 16.04 安装SS + BBR
+date: 2018/5/18
+categories: other
+---
+
 ### 搭建ss
 
 ##### shadowsocks 服务器安装

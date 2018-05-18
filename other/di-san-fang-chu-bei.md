@@ -1,7 +1,7 @@
 ---
 title: 第三方储备
 date: 2017/1/14 20:46:25
-categories: 第三方储备
+categories: other
 description: 归纳总结了一些实用的第三方库或者插件
 ---
 
