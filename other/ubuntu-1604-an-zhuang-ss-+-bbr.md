@@ -40,8 +40,7 @@ categories: other
 
 启动ss服务并后台启动
 
-`sudo/usr/local/bin/ssserver –c /etc/shadowsocks.json
- ssserver -c /etc/shadowsocks.json -d start`
+`sudo ssserver –c /etc/shadowsocks.json -d start`
 
 ##### 配置开机自启动
 
