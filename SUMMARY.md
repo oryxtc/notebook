@@ -56,5 +56,5 @@
   * [vue+element ui 实现菜单无限极分类](vue/vue+element ui 实现菜单无限极分类.md)
 * other
   * [第三方储备](other/di-san-fang-chu-bei.md)
-  * [ubuntu 16.04 安装SS + BBR](other/ubuntu-1604-an-zhuang-ss-+-bbr.md)
+  * [ubuntu 16.04 安装SS + BBR](other/ubuntu 16.04 安装SS + BBR.md)
 
