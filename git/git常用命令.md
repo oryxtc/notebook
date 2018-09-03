@@ -134,6 +134,11 @@ git fetch [remote-name] [branch-name]:[branch-name]
 git branch --set-upstream-to [remote-name]/[branch-name]
 ```
 
+###
+```git
+git branch --set-upstream [branch-name] [remote-name]/[branch-name]
+```
+
 ### 查看远程仓库
 ```git
 git remote show [remote-name]
