@@ -134,7 +134,7 @@ git fetch [remote-name] [branch-name]:[branch-name]
 git branch --set-upstream-to [remote-name]/[branch-name]
 ```
 
-###
+### 指定分支与远程仓库分支建立映射关系
 ```git
 git branch --set-upstream [branch-name] [remote-name]/[branch-name]
 ```
