@@ -1,8 +1,5 @@
----
-description: 测试实验
----
+# 博客主页地址:[https://oryxtc.github.io](https://oryxtc.github.io/)
 
-# Initial page
+# 代码托管地址:[https://github.com/oryxtc/notebook](https://github.com/oryxtc/notebook)
 
-测试
-
+# IT路上,坑何穷多,整理该笔记,意在少掉坑,少造轮子
