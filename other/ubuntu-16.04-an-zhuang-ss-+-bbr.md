@@ -2,7 +2,7 @@
 title: ubuntu 16.04 安装SS + BBR
 date: 2018/5/18
 categories: other
-description: 整理了一下算是ubuntu 16.04 安装SS + BBR最简单的方式
+description: 整理了一下算是ubuntu 16.04 安装SS + BBR最简单的方式.
 ---
 
 # ubuntu 16.04 安装SS + BBR
