@@ -58,7 +58,7 @@
   * [第三方储备](other/di-san-fang-chu-bei.md)
   * [ubuntu 16.04 安装SS + BBR](other/ubuntu-16.04-an-zhuang-ss-+-bbr.md)
 
-## docker
+## test
 
-* [测试](docker-1/ce-shi.md)
+* [测试](test/ce-shi.md)
 
