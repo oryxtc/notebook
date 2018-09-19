@@ -26,6 +26,15 @@
 
 * [mysql常用查询](mysql/mysql-chang-yong-cha-xun.md)
 
+## linux
+
+* [github自动部署](linux/github自动部署.md)
+* [linux常用命令](linux/linux常用命令.md)
+* [日志定时分割实现](linux/日志定时分割实现.md)
+* [记录终端输出到文本文件](linux/记录终端输出到文本文件.md)
+
+
+
 ## nginx
 
 * [nginx-alias与root区别](nginx/nginxalias-yu-root-qu-bie.md)
