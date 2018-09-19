@@ -11,7 +11,7 @@ description: 货号单 0000001的生成方法&通过goole Api以经纬度获取�
 
 # php代码块
 
-## 货号单 0000001的生成方法1
+## 货号单 0000001的生成方法
 
 ```php
 function _get_sn($sn) {
