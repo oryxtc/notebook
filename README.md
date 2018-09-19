@@ -1,6 +1,4 @@
-# Introduction
-
-## 博客主页地址:[https://oryxtc.github.io](https://oryxtc.github.io/)
+### 博客主页地址:[https://oryxtc.github.io](https://oryxtc.github.io/)
 
 ## 代码托管地址:[https://github.com/oryxtc/notebook](https://github.com/oryxtc/notebook)
 
