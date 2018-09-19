@@ -1,6 +1,6 @@
-# Summary	# Table of contents
+# Summary
 
- * [Introduction](README.md)	* [Initial page](README.md)
+ * [Introduction](README.md)
 * [php](php.md)	
   * [php代码块](php/php代码块.md)	
   * [php5.2.x升级到php5.3.x](php/php5.2.x升级到php5.3.x.md)	
