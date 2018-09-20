@@ -9,7 +9,7 @@ description: '通过node.js+webhook 实现github的自动部署'
 
 ### 安装node.js版本8.x
 ```bash
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 
@@ -22,7 +22,7 @@ cd /home/webhook;
 ### 在当前文件夹下,新建一个`deploy.js`作为监听程序,内容如下
 > 以下文件已上传gist 可使用命令
 >```bash
-curl -O https://gist.githubusercontent.com/oryxtc/b0bb50c210e25207dc67132d778714b6/raw/0b75f714064e232594fbaaf0f753bc9bf25d43df/deploy.js
+sudo curl -O https://gist.githubusercontent.com/oryxtc/b0bb50c210e25207dc67132d778714b6/raw/0b75f714064e232594fbaaf0f753bc9bf25d43df/deploy.js
 ```
 
 ```js
@@ -78,7 +78,7 @@ handler.on('issues', function (event) {
 ### 在当前文件夹下新建一个`deploy.sh`脚本执行自动拉取,内容如下
 > 以下文件已上传gist 可使用命令
 >```bash
-curl -O https://gist.githubusercontent.com/oryxtc/3850a573f0b6a0e7eb783658863d08cb/raw/0750ad8eb8c1feed24d07fb0f1f11a7baa07a212/deploy.sh
+sudo curl -O https://gist.githubusercontent.com/oryxtc/3850a573f0b6a0e7eb783658863d08cb/raw/0750ad8eb8c1feed24d07fb0f1f11a7baa07a212/deploy.sh
 ```
 
 ```bash
@@ -102,7 +102,7 @@ echo "Finished."
 ### 在当前文件夹下新建一个`deploy_hexo.sh`脚本执行自动拉取,以及hexo部署和提交.(根据自己情况 修改路径等)
 > 以下文件已上传gist 可使用命令
 >```bash
-curl -O https://gist.githubusercontent.com/oryxtc/eac1ec324ed295cddcae7c6767bc09f8/raw/09f97c4978e4336a139894d6a99b7d2d4513553b/deploy_hexo.sh
+sudo sudo curl -O https://gist.githubusercontent.com/oryxtc/eac1ec324ed295cddcae7c6767bc09f8/raw/09f97c4978e4336a139894d6a99b7d2d4513553b/deploy_hexo.sh
 ```
 
 ```bash
@@ -136,19 +136,19 @@ echo "Finished."
 
 ### 这里需要用到node.js的中间件`github-webhook-handler`,安装到当前目录下
 ```bash
-npm install github-webhook-handler
+sudo npm install github-webhook-handler
 ```
 
 ### 为了自动部署能后台自动运行,并且断线自动重运行,这里使用`pm2`组件
 ```bash
-npm install -g pm2
+sudo npm install -g pm2
 ```
 >如果出现 `/usr/bin/pm2 -> /usr/lib/node_modules/pm2/bin/pm2`
 >使用软连接 `ln -s /usr/lib/node_modules/pm2/bin/pm2 /usr/bin/pm2`
 
 ### 用`pm2`运行该进程
 ```bash
-pm2 start deploy.js --name auto-deploy # 命名进程
+sudo pm2 start deploy.js --name auto-deploy # 命名进程
 ```
 
 ### 最后在github的项目中配置webhook
