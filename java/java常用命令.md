@@ -7,7 +7,7 @@ tags: java
 description: 整理归纳java常用的命令
 ---
 
-## 设置javac 和java 编译运行时的配置项
+## 设置javac 和java 编译运行时的环境变量
 ```
 set JAVA_TOOL_OPTIONS=-Dfile.encoding=utf-8 -Duser.language=en -Duser.country=US
 ```
