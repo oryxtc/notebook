@@ -320,5 +320,5 @@ function quickSort($arr = [])
 
 ## 验证所需字段是否存在
 ```php
-array_diff_key(array_flip(['verify']), ['pending verify'])
+array_diff_key(array_flip(['need verify']), ['pending verify'=>'value'])
 ```
