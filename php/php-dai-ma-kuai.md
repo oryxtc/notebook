@@ -248,7 +248,7 @@ function selectSort($arr = [])
     for ($i = 0; $i < $len; $i++) {
         //假设当前值为最小值
         $minIndex = $i;
-        for ($k = $i; $k < $len; $k++) {
+        for ($k = $i+1; $k < $len; $k++) {
             //当期值比最小值小 则重新赋值最小值索引
             if ($arr[$k] < $arr[$minIndex]) {
                 $minIndex = $k;

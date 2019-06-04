@@ -31,7 +31,7 @@ description: 整理了一下算是ubuntu 16.04 安装SS + BBR最简单的方式.
 
 ```text
 {
-    "server":"0.0.0.",  //服务器 IP
+    "server":"0.0.0.0",
     "server_port":8388,
     "local_address": "127.0.0.1",
     "local_port":1080,
