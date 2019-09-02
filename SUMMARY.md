@@ -90,10 +90,6 @@
 * [laravel+voyager 实现后台管理](laravel/laravel+voyager-shi-xian-hou-tai-guan-li.md)
 * [laravel前期准备和上线前优化](laravel/laravel-qian-qi-zhun-bei-he-shang-xian-qian-you-hua.md)
 
-## react
-
-* JSX常用命令
-
 ## vue
 
 * [vue+element ui 实现菜单无限极分类](vue/vue+element-ui-shi-xian-cai-dan-wu-xian-ji-fen-lei.md)
