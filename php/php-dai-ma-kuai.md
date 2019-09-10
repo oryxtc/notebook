@@ -322,3 +322,28 @@ function quickSort($arr = [])
 ```php
 array_diff_key(array_flip(['need verify']), ['pending verify'=>'value'])
 ```
+
+## 数据库下所有表新增字段
+
+```php
+function main(){
+    set_time_limit ( 0 ); //不限时执行PHP代码
+    $host = "*.*.*.*";  //mysql主机IP地址
+    $name = "root";      //用户名
+    $password = "********"; //密码
+    $dataname = "********";//数据库
+    $port     = 3306
+
+    $link = mysqli_connect( $host , $name , $password ,$dataname,$port); //连接数据库
+    $result=$link->query("SHOW TABLES FROM ".$dataname);  //第一步是查询数据库所有的表
+    while($row=mysqli_fetch_row($result)){
+        $table_name=$row[0];
+        $sql="alter table `".$table_name."` add `columnName`  bigint(20) NOT NULL  DEFAULT 0 COMMENT '***'";
+        $system=$link->query($sql);
+        if($system){
+            echo $table_name." 表已经添加`system` 字段";
+        }
+    }
+    mysqli_close($link);
+}
+```
