@@ -43,7 +43,7 @@ description: 整理了一下算是ubuntu 16.04 安装SS + BBR最简单的方式.
 
 启动ss服务并后台启动
 
-`sudo ssserver –c /etc/shadowsocks.json -d start`
+`sudo ssserver -c /etc/shadowsocks.json -d start`
 
 ### 配置开机自启动
 
