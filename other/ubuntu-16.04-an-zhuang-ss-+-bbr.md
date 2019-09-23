@@ -32,12 +32,17 @@ description: 整理了一下算是ubuntu 16.04 安装SS + BBR最简单的方式.
 ```text
 {
     "server":"0.0.0.0",
-    "server_port":8388,
+    "port_password":{
+        "80":"password",
+        "443":"password",
+        "1080":"password",
+        "33333":"password"
+    },
     "local_address": "127.0.0.1",
     "local_port":1080,
-    "password":"mypassword",
     "timeout":300,
-    "method":"aes-256-cfb"
+    "method":"rc4-md5",
+    "fast_open":true
 }
 ```
 
